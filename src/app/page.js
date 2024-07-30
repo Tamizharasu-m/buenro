@@ -5,8 +5,8 @@ import Horizontal from "./component/Horizontal";
 export default function Home() {
   return (
     <div>
-      {/* <Header/> */}
-      <Horizontal/>
+      <Header/>
+      {/* <Horizontal/> */}
     </div>
   );
 }
