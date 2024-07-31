@@ -23,3 +23,38 @@
     text-wrap: balance;
   }
 }
+
+html {
+  font-size: calc(0.95rem + 1vw);
+}
+/* body{
+  font-family: __Poppins_da1309, __Poppins_Fallback_da1309;
+} */
+.tilt-text {
+  perspective: 1000px;
+}
+.handwritten-text{
+  font-family: BiroScriptPlus;
+  /* color:pink; */
+}
+.featured-cards-container {
+  perspective: 100px;
+}
+.card-opacity {
+  pointer-events: none;
+}
+
+.feature-carousel::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 1.5rem;
+  z-index: -1;
+}
+
+
+

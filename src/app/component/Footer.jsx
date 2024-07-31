@@ -16,8 +16,8 @@ export default function Footer() {
                     <div className=' w-full h-full z-[2]'></div>
                     <button className='hidden mobile:block text-[.8rem] z-[10] px-[.8rem] bg-black border-green-550 border-black text-white-100 rounded-full right-[.4rem] text-left lg:flex w-[89%] hover:opacity-90' fdprocessedid="l8xgw7">Join Waitlist</button>
                     <div className='text-[6rem] bottom-footer flex absolute bottom-[-.4rem] leading-[.8] lg:text-[11rem] md:bottom-0'>
-                        <img className='w-[83.6%] h-[auto] mx-auto' src='./Buenro-14.svg' width="1617" height="335" viewBox='0 0 1617 335' fill='none'></img>
-                        <div className='absolute w-full h-full gradient bg-footer mobile:h-[115%]'></div>
+                        {/* <img className='w-[83.6%] h-[auto] mx-auto' src='./Buenro-14.svg' width="1617" height="335" viewBox='0 0 1617 335' fill='none'></img> */}
+                        {/* <div className='absolute w-full h-full gradient bg-footer mobile:h-[115%]'></div> */}
                     </div>
                 </div>
             </section>
