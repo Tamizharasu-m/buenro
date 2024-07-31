@@ -70,7 +70,7 @@ export default function Horizontal() {
       
 
   return (
-    <div className="container pt-[18.696px] pb-[56.088px] px-[18.645px]">
+    <div className="container pt-[18.696px] pb-[56.088px] px-[18.645px] overflow-hidden">
       
       <div id="sectionPin">
       <h6 className='text-[23.9309px] leading-[35.8963px] max-w-[250px]'>Gather Globally in +50,000 Properties</h6>
