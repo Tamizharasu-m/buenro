@@ -56,5 +56,11 @@ html {
   z-index: -1;
 }
 
-
+.blue-pin{
+  position: absolute;
+  height: 1.39rem;
+  width:1.39rem;
+  border-radius: 9999px;
+  background-image: radial-gradient(circle, #fff .26rem, #00000099 0);
+}
 
