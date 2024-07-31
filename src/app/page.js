@@ -3,6 +3,7 @@ import Header from "./component/Header";
 import Horizontal from "./component/Horizontal";
 import Slider from "./component/Slider";
 import Footer from "./component/Footer";
+import Circle from "./component/Circle";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header/>
       {/* <Horizontal/> */}
       <Slider/>
+      <Circle/>
       <Footer/>
     </div>
   );
