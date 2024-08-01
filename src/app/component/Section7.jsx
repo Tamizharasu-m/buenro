@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Circle() {
+export default function Section7() {
   return (
     <div className='w-full h-full overflow-hidden'>
         <section className='h-screen bg-white-100 relative mt-[17rem] mobile:mt-[8rem]'>

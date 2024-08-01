@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Event() {
+export default function Section4() {
     return (
         <div className='h-[400vh] tablet:h-auto'>
             <div className='h-screen mt-[-50vh] w-full sticky top-0 tablet:hidden'>

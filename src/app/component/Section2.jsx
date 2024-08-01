@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Map() {
+export default function Section2() {
     return (
         <div className='relative w-[100%] z-[10] overflow-hidden mobile:mt-[-2rem]'>
             <div className='relative w-full'>

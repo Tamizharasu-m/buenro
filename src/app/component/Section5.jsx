@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Joining() {
+export default function Section5() {
   return (
     <div className='flex flex-col members-container overflow-container gap-[.5rem] text-center bg-white-100 text-black pt-[2.5rem] mobile:pb-[3.5rem]'>
         <div>

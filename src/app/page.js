@@ -1,25 +1,25 @@
 import Image from "next/image";
 import Header from "./component/Header";
-import Horizontal from "./component/Horizontal";
-import Slider from "./component/Slider";
 import Footer from "./component/Footer";
-import Circle from "./component/Circle";
-import Joining from "./component/Joining";
-import Connect from "./component/Connect";
-import Map from "./component/Map";
-import Event from "./component/Event";
+import Section3 from "./component/Section3";
+import Section2 from "./component/Section2";
+import Section4 from "./component/Section4";
+import Section5 from "./component/Section5";
+import Section7 from "./component/Section7";
+import Section9 from "./component/Section9";
+import Section8 from "./component/Section8";
 
 export default function Home() {
   return (
     <div>
       <Header/>
-      <Map/>
-      {/* <Horizontal/> */}
-      <Connect/>
-      <Joining/>
-      <Event/>
-      <Slider/>
-      <Circle/>
+      <Section2/>
+      <Section3/>
+      <Section4/>
+      <Section5/>
+      <Section7/>
+      <Section8/>
+      <Section9/>
       <Footer/>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Connect() {
+export default function Section3() {
     return (
         <div className='lg:h-[100vh] three-slides h-[80vh] container mx-auto'>
             <div className='flex flex-col justify-center h-full lg:h-screen'>
