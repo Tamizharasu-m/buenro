@@ -22,8 +22,12 @@ export default function Section10() {
                             </div>
                             <div className='absolute bottom-[7px] left-[7px] right-[7px] lg:bottom-[0.3rem] lg:left-[0.3rem] lg:right-[0.3rem] p-4 lg:py-[0.6rem] lg:px-3 rounded-[25px] lg:rounded-8.75 flex justify-between lg:min-h-oneRow lg:items-center'>
                                 <div class="absolute inset-0 rounded-[.9rem] lg:rounded-[.9rem] lg:min-h-oneRow mobile:rounded-[1.4rem]"></div>
-                                <div></div>
-                                <div></div>
+                                <div className='flex flex-col gap-[.4rem] justify-between z-20'>
+                                    
+                                </div>
+                                <div className='flex flex-col gap-[.4rem] text-right justify-between z-20'>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
