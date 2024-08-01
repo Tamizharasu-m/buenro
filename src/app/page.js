@@ -7,6 +7,7 @@ import Circle from "./component/Circle";
 import Joining from "./component/Joining";
 import Connect from "./component/Connect";
 import Map from "./component/Map";
+import Event from "./component/Event";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <Horizontal/> */}
       <Connect/>
       <Joining/>
+      <Event/>
       <Slider/>
       <Circle/>
       <Footer/>
