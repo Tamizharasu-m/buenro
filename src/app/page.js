@@ -9,11 +9,13 @@ import Section7 from "./component/Section7";
 import Section9 from "./component/Section9";
 import Section8 from "./component/Section8";
 import Section11 from "./component/Section11";
+import Section1 from "./component/Section1";
 
 export default function Home() {
   return (
     <div>
       <Header/>
+      <Section1/>
       <Section2/>
       <Section3/>
       <Section4/>
