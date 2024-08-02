@@ -10,6 +10,8 @@ import Section9 from "./component/Section9";
 import Section8 from "./component/Section8";
 import Section11 from "./component/Section11";
 import Section1 from "./component/Section1";
+import Section10 from "./component/Section10";
+import Section12 from "./component/Section12";
 
 export default function Home() {
   return (
@@ -23,7 +25,9 @@ export default function Home() {
       <Section7/>
       <Section8/>
       <Section9/>
+      <Section10/>
       <Section11/>
+      <Section12/>
       <Footer/>
     </div>
   );

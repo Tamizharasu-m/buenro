@@ -32,7 +32,7 @@
   }
   .blue-pin {
     @apply w-[1.39em] h-[1.39em] absolute rounded-full 
-     bg-gradient-pin;
+     ;
   }
   .mask-container {
     @apply w-[100%] h-screen overflow-hidden absolute top-0;
