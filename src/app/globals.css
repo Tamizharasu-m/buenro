@@ -24,6 +24,55 @@
   }
 }
 
+
+@layer components {
+  .rounded-card {
+    @apply w-full min-h-[17.87rem] 
+      rounded-[2rem] overflow-hidden flex flex-row p-[.5rem];
+  }
+  .blue-pin {
+    @apply w-[1.39em] h-[1.39em] absolute rounded-full 
+     bg-gradient-pin;
+  }
+  .mask-container {
+    @apply w-[100%] h-screen overflow-hidden absolute top-0;
+  }
+  .slide-cards {
+    @apply relative;
+  }
+  .car-nav-long {
+    @apply pointer-events-none	w-[1.88rem] h-[.25rem] rounded-[10rem] bg-white-100;
+  }
+  .car-nav-short {
+    @apply pointer-events-none	w-[1.38rem] h-[.25rem] rounded-[10rem] bg-white-100 mb-[.3em];
+  }
+
+  .roomies-col {
+    @apply h-[12.3rem] justify-between content-center flex flex-col w-[9.9rem] text-center;
+  }
+  .interest-tube {
+    @apply relative shadow-tube w-[9.13rem] h-[1.71rem] rounded-full;
+  }
+  .int-percentage {
+    @apply absolute w-[75%] h-full bg-green-200 border-2 border-green-550 rounded-full;
+  }
+  .per-number {
+    @apply absolute top-[50%] text-sm25 translate-y-[-50%] right-[.7rem];
+  }
+  .interest-name {
+    @apply absolute top-[50%] capitalize text-[.63rem] translate-y-[-50%] left-[.9rem];
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
 html {
   font-size: calc(0.95rem + 1vw);
 }
