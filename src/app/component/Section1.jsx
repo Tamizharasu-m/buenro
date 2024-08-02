@@ -12,9 +12,9 @@ export default function Section1() {
                                     <div class="cta-text">Join waitlist</div>
                                     <div class="cta-text">Join waitlist</div>
                                 </div>
-                                <img class="w-[.6rem] ml-[.2rem] arrow-right" width="24" height="23" src='./Buenro-7.svg' />
-                                <img class="absolute top-0 left-[50%] translate-x-[-50%] w-[6.8rem] z-[-1] mobile:w-[8rem] mobile:mt-[-.5rem] mobile:hidden" width="268" height="44" src="./Buenro-8.svg" />
-                                <img class="absolute hidden top-0 left-[50%] translate-x-[-50%] w-[6.8rem] z-[-1] mobile:w-[9rem] mobile:mt-[-.1rem] mobile:inline-block" width="197" height="40" src='./empty.svg' />
+                                <img class="w-[.6rem] ml-[.2rem] arrow-right" width="24" height="23" src='./Buenro-7.svg'/>
+                                <img class="absolute top-0 left-[50%] translate-x-[-50%] w-[6.8rem] z-[-1] mobile:w-[8rem] mobile:mt-[-.5rem] mobile:hidden" width="268" height="44" src="./Buenro-8.svg"/>
+                                <img class="absolute hidden top-0 left-[50%] translate-x-[-50%] w-[6.8rem] z-[-1] mobile:w-[9rem] mobile:mt-[-.1rem] mobile:inline-block" width="197" height="40" src='./empty.svg'/>
                             </div>
                             <div class="absolute top-[-10%] left-[-13%] right-[-13%] bottom-[-13%]"></div>
                         </div>
