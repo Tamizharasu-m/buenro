@@ -27,7 +27,7 @@ export default function Home() {
       <Section9/>
       <Section10/>
       <Section11/>
-      <Section12/>
+      {/* <Section12/> */}
       <Footer/>
     </div>
   );
