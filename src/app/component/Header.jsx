@@ -9,7 +9,7 @@ export default function Header() {
                 <img width="45" height="30" className='w-auto logo-type h-[1.05rem]' src="./Header/Buenro-4.svg" alt="" />
             </a>
             <div className='relative flex z-[10]'>
-                <div>
+                <div className='hidden md:flex'>
                     <div>
                         <div className='relative top-[-8%] left-[-2%] right-[-13%] bottom-[-8%] cursor-pointer px-[.8rem] py-[8px] text-[.5rem] items-center'>
                             
