@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section4() {
+export default function Create() {
     return (
         <div className='h-[400vh] md:h-auto'>
             <div className='h-screen mt-[-50vh] w-full sticky top-0 hidden md:flex'>

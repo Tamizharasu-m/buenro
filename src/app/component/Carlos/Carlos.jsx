@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section5() {
+export default function Carlos() {
   return (
     <div className='flex flex-col members-container overflow-container gap-[.5rem] text-center bg-white-100 text-black pt-[2.5rem] pb-[3.5rem] md:pb-[0]'>
         <div>

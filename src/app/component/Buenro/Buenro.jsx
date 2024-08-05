@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function Section2() {
+export default function Buenro() {
     return (
         <div className='relative w-[100%] z-[10] overflow-hidden mobile:mt-[-2rem]'>
             <div className='relative w-full'>

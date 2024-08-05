@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section11() {
+export default function Events() {
     return (
         <div className='scs-container pb-[10%] md:flex w-full justify-center mt-[calc(1rem+15vh)] gap-[2rem] md:flex-row md:items-center mobile:px-[1.2rem] mobile:mt-[5rem] px-[22.464px]'>
             <div className='flex flex-col sc-col gap-[2rem]'>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section8() {
+export default function Trusted() {
     return (
         <div className='relative text-center text-black bg-white-100'>
             <div className='sticky top-0 justify-center hidden w-full h-screen md:flex'>

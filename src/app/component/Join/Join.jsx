@@ -6,7 +6,7 @@ import Slider from 'react-slick/lib/slider';
 
 
 
-export default function Section1() {
+export default function Join() {
 
     const texts = [
         'Sync Plans',

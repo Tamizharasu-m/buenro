@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section10() {
+export default function Globally() {
     return (
         <div className='relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start  pt-[1rem] pb-[3rem] mobile:h-[200vh]'>
             <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[18rem] sticky top-[calc(100vh-18rem)/2] mobile:h-[auto] mobile:top-[calc(100vh-21rem)/2]'>

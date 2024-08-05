@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section9() {
+export default function Slider() {
     return (
         <div className='min-h-screen h-[165vh] text-center mobile:mb-[-16rem] overflow-hidden'>
             <div className='flex items-center h-full gap-[2.35rem] screens-showcase rotate-[-10deg]' >
