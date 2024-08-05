@@ -3,7 +3,7 @@ import React from 'react'
 export default function Section7() {
   return (
     <div className='w-full h-full overflow-hidden'>
-      <section className='h-screen bg-white-100 relative mt-[17rem] mobile:mt-[8rem]'>
+      <section className='h-screen bg-white-100 relative md:mt-[1.7rem] mt-[8rem]'>
         <div className='flex items-center justify-center h-screen'>
           <p className='text-[2.78rem] w-[8ch] mx-auto text-center absolute'>Join Circles</p>
           <div className='absolute h-[calc(33vh+16rem)] w-[calc(33vh+16rem)] top-0 flex items-center justify-center circles-container mobile:w-full mobile:h-[115vw]'>

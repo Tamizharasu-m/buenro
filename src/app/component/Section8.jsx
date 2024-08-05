@@ -3,7 +3,7 @@ import React from 'react'
 export default function Section8() {
     return (
         <div className='relative text-center text-black bg-white-100'>
-            <div className='sticky top-0 justify-center hidden w-full h-screen md:flex md:'>
+            <div className='sticky top-0 justify-center hidden w-full h-screen md:flex'>
                 <div className='absolute w-full h-full top-[0] overflow-hidden'>
                     <img alt="" loading="lazy" width="645" height="1400" decoding="async" data-nimg="1" class="slides-Image left shadow-xxsm object-cover absolute top-[10%] left-[calc(.55rem+10vw)] w-[8.16rem] border-[.09rem] border-black h-[17.75rem] rounded-[1.2rem] rotate-[10deg] " srcSet='./trust/18.jpg 1x, ./trust/18.jpg 2x' src='./trust/18.jpg' />
                     <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="slides-Image left object-cover shadow-xxsm absolute top-[10%] left-[calc(.55rem+10vw)] w-[8.16rem] border-[.09rem] border-black h-[17.75rem] rounded-[1.2rem] rotate-[-10deg] " srcSet='./trust/2.jpg 1x, ./trust/2.jpg 2x' src='./trust/2.jpg' />
