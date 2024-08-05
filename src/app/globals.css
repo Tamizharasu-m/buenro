@@ -149,3 +149,20 @@ html {
 .flex-shrink-0, .shrink-0 {
   flex-shrink: 0;
 }
+
+.px-mobile {
+  padding-left: calc(100vw / 18.75);
+  padding-right: calc(100vw / 18.75);
+}
+
+.bg-image1{
+  background-image: url("/props1.jpg");
+}
+
+.bg-image2{
+  background-image: url("/props2.jpg");
+}
+
+.bg-image3{
+  background-image: url("/props4.jpg");
+}

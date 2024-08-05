@@ -10,7 +10,7 @@ export default function Header() {
             <div className='relative flex z-[10]'>
                 <div>
                     <div>
-                        <div className='relative hidden cursor-pointer md:flex'>
+                        <div className='relative hidden cursor-pointer md:block'>
                             <div className='flex items-center bg-black rounded-full text-white-100 early-access mobile:hidden-[10rem] px-[.8rem] py-[.45rem] text-[.5rem] mr-[.8rem] cursor-pointer'>
                                 <div className='relative flex flex-col cursor-pointer h-[.75rem] overflow-hidden'>
                                     <p>Early Access</p>
@@ -19,7 +19,7 @@ export default function Header() {
                             </div>
                             <div className='absolute top-[-10%] left-[-13%] right-[-13%] bottom-[-13%]'></div>
                         </div>
-                        {/* <div className='relative hidden cursor-pointer sm:flex'>
+                        <div className='relative hidden cursor-pointer md:block'>
                             <div className='flex items-center bg-black rounded-full text-white-100 early-access mobile:hidden-[10rem] px-[.8rem] py-[.45rem] text-[.5rem] mr-[.8rem] cursor-pointer'>
                                 <div className='relative flex flex-col cursor-pointer h-[.75rem] overflow-hidden'>
                                     <p>Early Access</p>
@@ -27,7 +27,7 @@ export default function Header() {
                                 </div>
                             </div>
                             <div className='absolute top-[-10%] left-[-13%] right-[-13%] bottom-[-13%]'></div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
                 <div>

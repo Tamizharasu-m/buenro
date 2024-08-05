@@ -7,7 +7,7 @@ export default function Section10() {
                 <p class="text-[1.28rem] pl-[8.33vw] tablet:pl-0">Gather Globally in +50,000 Properties</p>
                 <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>
                     <div className='flex-shrink-0 mr-2 snap-center'>
-                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem]'>
+                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                     <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -60,7 +60,7 @@ export default function Section10() {
                         </div>
                     </div>
                     <div className='flex-shrink-0 mr-2 snap-center'>
-                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem]'>
+                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                     <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -113,7 +113,7 @@ export default function Section10() {
                         </div>
                     </div>
                     <div className='flex-shrink-0 mr-2 snap-center'>
-                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem]'>
+                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                     <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -169,7 +169,7 @@ export default function Section10() {
                 </div>
                 <div class="hidden mobile:block relative w-full h-[22.2rem]"></div>
                 <div className='absolute w-auto cursor-pointer properties-row left-[100%] flex gap-[2rem] h-[14rem] mt-[1.45rem] mobile:h-[17.2rem] mobile:top-[4rem] '>
-                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem]'>
+                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -220,7 +220,7 @@ export default function Section10() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem]'>
+                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -271,7 +271,7 @@ export default function Section10() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem]'>
+                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
