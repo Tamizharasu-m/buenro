@@ -34,8 +34,8 @@ export default function Section2() {
                 </div>
                 <div className='relative text-black tilt-text w-[23rem] text-center flex flex-col justify-center mx-auto min-h-screen tablet:w-[12rem] tablet:pt-[6rem] mobile:w-[12rem] mobile:pt-[0] mobile:min-h-[39rem] mobile:pt-[6rem] gap-[.3rem]'>
                     <h2 className='text-[2.40rem] font-medium capitalize leading-[1.25] pb-[1rem] mobile:text-[3rem] mobile:pb-[1.6rem] '>Buenro</h2>
-                    <div className='w-full tablet:mt-[12%] mobile:mt-[0]'>
-                        <p className='handwritten-text text-[41px] lg:text-[49x'>Mean "good vibes" in Spanish</p>
+                    <div className='w-full tablet:mt-[12%] mobile:mt-[0] '>
+                        <p className='handwritten-text text-[38px] lg:text-[49x]'>Mean "good vibes" in Spanish</p>
                     </div>
                 </div>
             </div>
