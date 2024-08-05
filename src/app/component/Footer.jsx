@@ -2,9 +2,10 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        
-            <section className=' h-[100vh]'>
-                <div className='flex justify-center h-screen text-white bg-black footer-content-100-col  w-full z-[-2] items-center pb-[5.9rem]'>
+        <div id="footer" className='footer'>
+        <div class="relative h-[101vh] w-full z-[-1]"></div>
+            <section className=' h-[100vh] fixed bottom-0 z-[0]'>
+                <div className='flex flex-col justify-center h-screen text-white-100 bg-black footer-content  w-full z-[-2] items-center pb-[5.9rem] fixed top-0 '>
                     <p className='text-3xl pb-[1.6rem] capitalize'>you belong</p>
                     <div className='waitlist-btn z-[5] bg-green-550 w-[15.rem] h-[2.65rem] rounded-full border-[.11rem] border-black relative overflow-hidden mobile:w-[89%] mobile:h-[3.3rem] mobile:bg-white-100 mobile:mb-[.5rem]'>
                         <div className='absolute ripple-white w-[110%] h-full left-[-2rem] bg-white-100 rounded-full opacity-[.33]'></div>
@@ -16,10 +17,11 @@ export default function Footer() {
                     <div className=' w-full h-full z-[2]'></div>
                     <button className='hidden mobile:block text-[.8rem] z-[10] px-[.8rem] bg-black border-green-550 border-black text-white-100 rounded-full right-[.4rem] text-left lg:flex w-[89%] hover:opacity-90' fdprocessedid="l8xgw7">Join Waitlist</button>
                     <div className='text-[6rem] bottom-footer flex absolute bottom-[-.4rem] leading-[.8] lg:text-[11rem] md:bottom-0'>
-                        {/* <img className='w-[83.6%] h-[auto] mx-auto' src='./Buenro-14.svg' width="1617" height="335" viewBox='0 0 1617 335' fill='none'></img> */}
-                        {/* <div className='absolute w-full h-full gradient bg-footer mobile:h-[115%]'></div> */}
+                        <img className='w-[83.6%] h-[auto] mx-auto' src='./Buenro-14.svg' width="1617" height="335" viewBox='0 0 1617 335' fill='none'></img> 
+                        <div className='absolute w-full h-full gradient bg-footer mobile:h-[115%]'></div>
                     </div>
                 </div>
             </section>
+            </div>
     )
 }
