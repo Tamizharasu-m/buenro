@@ -4,8 +4,8 @@ export default function Footer() {
     return (
         <div id="footer" className='footer'>
         <div class="relative h-[101vh] w-full z-[-1]"></div>
-            <section className=' h-[100vh] fixed bottom-0 z-[0]'>
-                <div className='flex flex-col justify-center h-screen text-white-100 bg-black footer-content  w-full z-[-2] items-center pb-[5.9rem] fixed top-0 '>
+            <section className=' h-[100vh]  z-[0]'>
+                <div className='flex flex-col justify-center h-screen text-white-100 bg-black footer-content  w-full z-[-2] items-center pb-[5.9rem]  '>
                     <p className='text-3xl pb-[1.6rem] capitalize'>you belong</p>
                     <div className='waitlist-btn z-[5] bg-green-550 w-[15.rem] h-[2.65rem] rounded-full border-[.11rem] border-black relative overflow-hidden mobile:w-[89%] mobile:h-[3.3rem] mobile:bg-white-100 mobile:mb-[.5rem]'>
                         <div className='absolute ripple-white w-[110%] h-full left-[-2rem] bg-white-100 rounded-full opacity-[.33]'></div>
