@@ -24,7 +24,7 @@ export default function Create() {
                 </div>
                 <img loading='lazy' width="644" height="1400" decoding='async' data-nimg="1" className=' object-cover border-[.1rem] border-black rounded-[1.25rem] md:w-[10.5rem] md:h-[22rem] w-[15.5rem] mobile:h-auto mobile:border-[.2rem] mobile:rounded-[1.9rem] ' srcSet='./design/7.webp 1x, ./design/7.webp 2x' src="./design/7.webp" alt="" />
             </div>
-            <div className='relative md:flex items-center justify-center w-full h-screen pin-image z-[10] md:flex-col md:mb-[3rem] mobile:overflow-hidden mobile:min-h-[43rem]'>
+            <div className='relative md:flex items-center justify-center w-full h-screen pin-image z-[10] md:flex-col md:justify-center md:mb-[3rem] mobile:overflow-hidden mobile:min-h-[43rem]'>
                 <div className='flex-col md:hidden mb-[.4rem] md:mb-[1.2rem] pin-mobile-text'>
                     <p className='text-[1.6rem] text-center mb-[.3rem] mobile:text-[2.4rem]'>Sync Trips</p>
                     <p className='text-[1.6rem] text-center mb-[.3rem] mobile:text-[2.4rem]'>& Plans</p>
