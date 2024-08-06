@@ -30,7 +30,7 @@ export default function Join() {
     };
 
     return (
-        <div className='sync-row min-h-[screen] h-[calc(100vh+6rem)] text-center mobile:h-auto w-100% relative overflow-hidden flex flex-col justify-evenly'>
+        <div className='sync-row min-h-[screen] h-[calc(100vh+6rem)] text-center mobile:h-auto w-100% relative overflow-hidden flex flex-col justify-evenly container mx-auto'>
             <div className='flex flex-col gap-[.6rem] pt-[3.8rem] pb-[1.6rem] h-[calc(6rem+19vh)] justify-evenly mobile:pt-[8rem] mobile:h-auto'>
                 <div>
                     <div>

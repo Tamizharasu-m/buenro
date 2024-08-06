@@ -23,7 +23,7 @@ export default function Footer() {
         //         </div>
         //     </section>
         //     </div>
-        <div className='flex flex-col items-center justify-center h-screen bg-black'>
+        <div className='container flex flex-col items-center justify-center h-screen mx-auto bg-black '>
             <div className=''>
                 <p className='text-[49px] text-white pb-[30px] flex justify-center'>You Belong</p>
                 <div className='flex justify-center'>

@@ -4,7 +4,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
 
-            <div className='fixed top-0 z-50 flex items-center justify-between bg-transparent lg:px-global px-[19px] pt-[24px] lg:px-[128px] lg:pt-[34.351px] pb-[10px] w-full mobile:text-[1.6rem] transition-colors duration-300 text-white '>
+            <div className='fixed top-0 z-50 flex items-center justify-between bg-transparent lg:px-global px-[19px] pt-[24px] lg:px-[128px] lg:pt-[34.351px] pb-[10px] w-full mobile:text-[1.6rem] transition-colors duration-300 text-white container mx-auto'>
                 <a className='relative pb-[0.1rem] flex flex-row' href="/">
                     <img width="42" height="42" className='h-[1.05rem] w-auto logo pr-[.5rem]' src="./Header/Buenro-3.svg" alt="" />
                     <img width="45" height="30" className='w-auto logo-type h-[1.05rem]' src="./Header/Buenro-4.svg" alt="" />

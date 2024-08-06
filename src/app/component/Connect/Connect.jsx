@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Connect() {
     return (
-        <div className='lg:h-[100vh] three-slides h-[80vh] container mx-auto'>
+        <div className='lg:h-[100vh] three-slides h-[80vh] container mx-auto overflow-hidden'>
             <div className='flex flex-col justify-center h-full lg:h-screen'>
                 <p className='text-3xl text-center md:text-[2rem] capitalize sm:text-[2.35rem] md:w-[10ch] md:mx-auto md:leading-[1.5] lg:text-[68.0064px] lg:leading-[78.2125px] lg:w-[20ch]'>Connect in real life</p>
                 <div className='relative mt-[1.1rem] h-[15rem] flex items-center justify-center w-full md:overflow-hidden lg:mt-[29.568px]'>
@@ -12,7 +12,7 @@ export default function Connect() {
                     <div className='ts-slides w-[7rem] h-[7rem] absolute lg:w-[9.96rem] lg:h-[9.96rem] overflow-hidden rounded-[1.25rem] translate-x-[11.2rem] md:w-[8.46rem] md:h-[8.46rem]'>
                         <img loading='lazy' decoding='async' data-nimg="1" className='object-cover w-full h-full ' srcSet='./box/ev2.webp 1x, ./box/ev2.webp 2x' src="./box/ev2.webp" alt="" />
                     </div>
-                    <div className='bg-white-900 shadow-white absolute left-[50%] translate-x-[-50%] md:w-[14.75rem] md:h-[14.75rem] overflow-hidden border-[.4rem] border-white rounded-[1.65rem] w-[12.53rem] h-[12.53rem] lg:w-[396.475px] lg:h-[396.475px] xl:rounded-[43.68px]'>
+                    <div className='bg-white-900 shadow-white absolute left-[50%] translate-x-[-50%] md:w-[14.75rem] md:h-[14.75rem] overflow-hidden border-[.2rem] border-white rounded-[1.65rem] w-[12.53rem] h-[12.53rem] lg:w-[396.475px] lg:h-[396.475px] xl:rounded-[43.68px]'>
                         <img loading='lazy' height="1000px" width="1000px" decoding='async' data-nimg="1" className='object-cover w-full h-full ' srcSet='./box/ev3.webp 1x, ./box/ev3.webp 2x' src="./box/ev3.webp" alt="" />
                     </div>
                 </div>

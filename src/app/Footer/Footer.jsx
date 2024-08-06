@@ -23,17 +23,17 @@ export default function Footer() {
         //         </div>
         //     </section>
         //     </div>
-        <div className='flex flex-col items-center justify-center h-screen bg-black'>
+        <div className='container flex flex-col items-center justify-center h-screen mx-auto bg-black'>
             <div className=''>
-                <p className='text-[49px] text-white pb-[30px] flex justify-center'>You Belong</p>
+                <p className='text-[49px] text-white pb-[30px] flex justify-center lg:text-[69px]'>You Belong</p>
                 <div className='flex justify-center'>
-                    <input className='w-[304px] h-[48px] rounded-full pl-[30px] text-black outline-none placeholder:text-black text-[16px]' type="text" placeholder='Enter email...' />
+                    <input className='w-[304px] h-[48px] lg:w-[435px] lg:h-[72px] bg-green-400 rounded-full pl-[30px] text-black outline-none placeholder:text-black text-[16px]' type="text" placeholder='Enter email...' />
                 </div>
                 <div className='mt-[10px] flex justify-center'>
-                    <input className='w-[380px] h-[64px] border-green-500 rounded-full text-white placeholder:text-white bg-black border-[.2rem] py-[5.842px] pl-[33.102px] pr-[15.578px] text-[16px]' type="text" placeholder='Join Waitlist' />
+                    <input className='w-[380px] h-[64px] border-green-400 rounded-full text-white placeholder:text-white bg-black border-[.2rem] py-[5.842px] pl-[33.102px] pr-[15.578px] text-[16px] cursor-pointer lg:w-[119px] lg:h-[57px] lg:border-[1.6px] lg:text-[12px] lg:px-[22px] lg:py-[8.263px] lg:border-black lg:bg-white lg:placeholder:text-black lg:relative lg:top-[-75px] lg:left-[150px]' type="text" placeholder='Join Waitlist' />
                 </div>
             </div>
-            <div className='relative top-[230px] flex justify-center'>
+            <div className='relative top-[230px] flex justify-center lg:top-[100px]'>
                 <img className='w-[83%] h-auto'  src="./logo.svg" alt="logo" />
             </div>
         </div>
