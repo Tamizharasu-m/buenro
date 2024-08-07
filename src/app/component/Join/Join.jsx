@@ -5,17 +5,21 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick/lib/slider';
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide  } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+<<<<<<< HEAD
 import "./Join.css";
 
+=======
+import './Join.css'
+>>>>>>> 4a2fadefb940dd171c4119a47b86663b6654fe3f
 
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay} from 'swiper/modules';
 
 
 
@@ -44,11 +48,11 @@ export default function Join() {
 
     return (
         <>
-            {/* <div className='sync-row min-h-[screen] h-[calc(100vh+6rem)] text-center mobile:h-auto w-100% relative overflow-hidden flex flex-col justify-evenly container mx-auto'>
+            <div className='overflow-hidden'>
                 <div className='flex flex-col gap-[.6rem] pt-[3.8rem] pb-[1.6rem] h-[calc(6rem+19vh)] justify-evenly mobile:pt-[8rem] mobile:h-auto'>
                     <div>
                         <div>
-                            <div className='relative inline-block cursor-pointer mobile:hidden'>
+                            <div className='relative  cursor-pointer mobile:hidden text-center flex justify-center'>
                                 <div className='text-regular30 waitlist-cta w-[10rem] relative cursor-pointer flex justify-center items-center capitalize mobile:pb-[1rem] mobile:text-[.9rem] mobile:mx-auto'>
                                     <div className='relative flex flex-col cursor-pointer h-[1.2rem] overflow-hidden mobile:h-[1.4rem]'>
                                         <div class="cta-text">Join waitlist</div>
@@ -74,7 +78,7 @@ export default function Join() {
                             </div>
                         </div>
                     </div>
-                    <div className='h-[3.08rem] overflow-hidden mobile:h-[2.64rem]'>
+                    <div className='flex justify-center text-center overflow-hidden'>
                         <Slider {...settings} className='srow-text-contain'>
                             {texts.map((text, idx) => (
                                 <p className="text-3xl leading-[1.2] mobile:text-[2.2em]" key={idx}>
@@ -84,7 +88,7 @@ export default function Join() {
                         </Slider>
                     </div>
                 </div>
-                <div className='h-[calc(16rem+17vw)] mobile:w-[100vw] mobile:relative mobile:h-[28rem] mobile:overflow-hidden mobile:mt-[1rem]'>
+                {/* <div className='h-[calc(16rem+17vw)] mobile:w-[100vw] mobile:relative mobile:h-[28rem] mobile:overflow-hidden mobile:mt-[1rem]'>
                     <div className='absolute flex flex-row overflow-hidden srow-container w-[48rem] min-w-[100vw] left-[50%] translate-x-[-50%] mobile:w-[68rem]'>
                         <div className='flex flex-shrink-0 gap-[3vw] pl-[1.6rem] sync-row-contain md:gap-[1.6rem]'>
                             <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' />
@@ -105,29 +109,59 @@ export default function Join() {
                             <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem] min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] " srcSet='./mobile/17.webp 1x, ./mobile/17.webp 2x' src='./mobile/17.webp' />
                         </div>
                     </div>
+<<<<<<< HEAD
                 </div>
 
             </div> */}
 
             <div className='py-10 pt-20 bg-gray-50'>
+=======
+                </div> */}
+                 <div className=' bg-gray-50 '>
+>>>>>>> 4a2fadefb940dd171c4119a47b86663b6654fe3f
                 <Swiper
+                spaceBetween={30}
+                slidesPerView={5}
                     pagination={{
-                        dynamicBullets: true,
+                        dynamicBullets: false,
                     }}
+<<<<<<< HEAD
                     modules={[Pagination]} 
                     className="mySwiper "
+=======
+                    autoplay={{
+                        delay : 1900
+                    }}
+                    loop
+                    modules={[Autoplay]} 
+                    className="mySwiper"
+>>>>>>> 4a2fadefb940dd171c4119a47b86663b6654fe3f
                 >
-                    <SwiperSlide><div><h1 className='text-[100px]'>Hello</h1></div></SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide>
+                    <SwiperSlide> 
+                        <img 
+                        alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' />
+                    </SwiperSlide>
+                    <SwiperSlide> 
+                        <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
+                    <SwiperSlide> 
+                        <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
+                    <SwiperSlide> 
+                        <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
+                        <SwiperSlide> 
+                        <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' />
+                    </SwiperSlide>
+                    <SwiperSlide> 
+                        <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
+                    <SwiperSlide> 
+                        <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
+                    <SwiperSlide> 
+                        <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] mobile:w-[11.8rem] mobile:border-[.12rem] mobile:rounded-[1.6rem]" srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
+ 
                 </Swiper>
             </div>
+            </div>
+
+           
         </>
     )
 }
