@@ -66,7 +66,6 @@ export default function Buenro() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
