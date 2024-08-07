@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Buenro() {
     return (
-        <div className='relative w-[100%] z-[10] overflow-hidden mobile:mt-[-2rem] container mx-auto'>
+        <div className='relative w-[100%] z-[10] overflow-hidden mobile:mt-[-2rem] '>
             <div className='relative w-full'>
                 <div className='overflow-hidden bg-contain pt-[1.2rem] left-[50%] translate-x-[-50%] h-screen w-[105%] absolute mobile:h-[39rem]'>
                     <div className='rounded bg-white-100 scaling-bg-[2rem] w-full h-full mobile:mt-[3rem]'></div>

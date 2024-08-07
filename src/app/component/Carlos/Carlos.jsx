@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Carlos() {
   return (
-    <div className='flex flex-col members-container overflow-hidden gap-[.5rem] text-center bg-white-100 text-black pt-[2.5rem] pb-[3.5rem] md:pb-[0] container mx-auto'>
+    <div className='flex flex-col members-container overflow-hidden gap-[.5rem] text-center bg-white-100 text-black pt-[2.5rem] pb-[3.5rem] md:pb-[0] '>
         <div>
             <h3 className='text-regular75 md:w-[20ch] mx-auto mobile:text-[2.1rem] w-full px-[1.2rem] md:px-0 leading-[1.5] md:leading-[0]'>See who else is joining</h3>
         </div>
