@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Globally() {
     return (
-        <div className='relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] container mx-auto'>
+        <div className='relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
             <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[18rem] sticky top-[calc(100vh-18rem)/2] mobile:h-[auto] mobile:top-[calc(100vh-21rem)/2]'>
                 <p class="text-[1.28rem] pl-[8.33vw] tablet:pl-0">Gather Globally in +50,000 Properties</p>
                 <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>

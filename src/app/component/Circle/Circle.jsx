@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Circle() {
   return (
-    <div className='container w-full h-full mx-auto overflow-hidden'>
+    <div className='w-full h-full overflow-hidden '>
       <section className='h-screen bg-white-100 relative md:mt-[1.7rem] mt-[8rem]'>
         <div className='flex items-center justify-center h-screen'>
           <p className='text-[2.78rem] w-[8ch] mx-auto text-center absolute'>Join Circles</p>
