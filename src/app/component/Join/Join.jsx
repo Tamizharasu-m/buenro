@@ -1,15 +1,16 @@
 "use client"
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick/lib/slider';
-import { useRef } from 'react';
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import "./Join.css";
 
 
 
@@ -108,13 +109,13 @@ export default function Join() {
 
             </div> */}
 
-            <div className='pt-20 bg-gray-50 py-10'>
+            <div className='py-10 pt-20 bg-gray-50'>
                 <Swiper
                     pagination={{
                         dynamicBullets: true,
                     }}
                     modules={[Pagination]} 
-                    className="mySwiper  "
+                    className="mySwiper "
                 >
                     <SwiperSlide><div><h1 className='text-[100px]'>Hello</h1></div></SwiperSlide>
                     <SwiperSlide>Slide 2</SwiperSlide>
