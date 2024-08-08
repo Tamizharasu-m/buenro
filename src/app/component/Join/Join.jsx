@@ -117,7 +117,61 @@ export default function Join() {
 
                     <Swiper
                         
-                        
+                        breakpoints={{
+                            0: {
+        
+                                slidesPerView: 1.2,
+        
+                                
+                                centeredSlides: true,
+                                spaceBetween : 2
+                            },
+        
+                            0: {
+        
+                               
+        
+                                slidesPerView: 1.2,
+        
+                                centeredSlides: true,
+                                spaceBetween : 2
+                            },
+        
+                            575: {
+        
+                                slidesPerView: 1.2,
+        
+                                centeredSlides: true,
+                                spaceBetween : 2
+        
+                            },
+        
+                            768: {
+        
+                                slidesPerView: 2,
+        
+                                centeredSlides: false,
+        
+                            },
+        
+                            992: {
+        
+                                slidesPerView: 3,
+                                pagination: false,
+                            },
+        
+                            1300: {
+        
+                                slidesPerView: 5,
+                                pagination: false,
+                            },
+        
+                            1440: {
+        
+                                slidesPerView: 5,
+                                pagination: false,
+                            },
+                        }}
                     
                         spaceBetween={30}
                         slidesPerView={5}

@@ -52,7 +52,7 @@ export default function Globally() {
         <div ref={horizontalScrollContainer} className='  relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
             <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[18rem] sticky top-[calc(100vh-18rem)/2] mobile:h-[auto] mobile:top-[calc(100vh-21rem)/2]'>
                 <p class="text-[1.28rem] pl-[8.33vw] tablet:pl-0">Gather Globally in +50,000 Properties</p>
-                <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>
+                {/* <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>
                     <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
                         <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
@@ -213,7 +213,7 @@ export default function Globally() {
                         </div>
                     </div>
                     <div class="w-[14.2rem] shrink-0 bg-black rounded-[1rem]"></div>
-                </div>
+                </div> */}
                 <div class="hidden mobile:block relative w-full h-[22.2rem]"></div>
                 <div className='absolute  cursor-pointer properties-row left-[100%] flex w-[100px] gap-[2rem] h-[14rem] mt-[1.45rem] mobile:h-[17.2rem] mobile:top-[4rem] '>
                     <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
