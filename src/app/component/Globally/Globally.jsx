@@ -358,13 +358,13 @@ export default function Globally() {
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="text-white-100 text-xs z-20 lg:text-sm text-[.48rem] mobile:text-[.71rem]">Join 4 roomies</p>
+                                    <p class="text-white-100 text-xs z-20 lg:text-[13px] text-[.48rem] mobile:text-[.71rem]">Join 4 roomies</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-[.4rem] text-right justify-between z-20'>
-                                <h4 class="text-white-100 text-xs z-20  lg:text-sm text-[.48rem] mobile:text-[.71rem]">Aug 22-27</h4>
+                                <h4 class="text-white-100 text-xs z-20  lg:text-[13px] text-[.48rem] mobile:text-[.71rem]">Aug 22-27</h4>
                                 <div className='flex gap-2'>
-                                    <p class="text-white-100 md:text-[15px] z-20 lg:text-sm text-[.6rem] mobile:text-[.9rem]">$ 129 night</p>
+                                    <p class="text-white-100 md:text-[15px] z-20 lg:text-[16px] text-[.6rem] mobile:text-[.9rem]">$ 129 night</p>
                                 </div>
                             </div>
                         </div>
