@@ -344,7 +344,7 @@ export default function Globally() {
                                         </div>
                                         <div className='relative pb-[.1rem]'>
                                             <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1 (1).webp 640w, ./profile/person1 (1).webp 750w, ./profile/person1 (1).webp 828w, ./profile/person1 (1).webp 1080w, ./profile/person1 (1).webp 1200w, ./profile/person1 (1).webp 1920w, ./profile/person1 (1).webp 2048w, ./profile/person1 (1).webp 3840w' src='./profile/person1 (1).webp' />
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member1.jpg 640w, ./profile/member1.jpg 750w, ./profile/member1.jpg 828w, ./profile/member1.jpg 1080w, ./profile/member1.jpg 1200w, ./profile/member1.jpg 1920w, ./profile/member1.jpg 2048w, ./profile/member1.jpg 3840w' src='./profile/member1.jpg' />
                                             </div>
                                         </div>
                                         <div className='relative pb-[.1rem]'>
