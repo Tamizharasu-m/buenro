@@ -216,7 +216,7 @@ export default function Globally() {
                 </div>
                 <div class="hidden mobile:block relative w-full h-[22.2rem]"></div>
                 <div className='absolute  cursor-pointer properties-row left-[100%] flex w-[100px] gap-[2rem] h-[14rem] mt-[1.45rem] mobile:h-[17.2rem] mobile:top-[4rem] '>
-                    <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
+                    <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1 h-[227px]'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
