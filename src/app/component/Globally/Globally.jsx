@@ -1,12 +1,59 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+import SplitType from 'split-type';
+import Link from 'next/link';
+
 
 export default function Globally() {
+    const horizontalScrollContainer = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+    const sections = gsap.utils.toArray<HTMLElement>('.scroll-section');
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.set(sections, { width: '2500px' });
+    gsap.to(sections, {
+        xPercent: -95 * (sections.length - 1),
+        ease: 'none',
+        scrollTrigger: {
+            trigger: horizontalScrollContainer.current,
+            pin: true,
+            scrub: 1,
+            end: () => `+=${horizontalScrollContainer.current?.offsetWidth || 0}`,
+        },
+    });
+    const texts = new SplitType('.headanimi3', { types: 'chars' });
+    var charsa = texts.chars;
+    gsap.set(".headanimi3", { perspective: 400 });
+    gsap.from(charsa, {
+      duration: 0.5,
+      scale: 0,
+      y: 100,
+      delay: 1,
+      rotationX: 120,
+      transformOrigin: "0% 30% -30",
+      ease: "power4.out",
+      stagger: 0.01,
+      scrollTrigger: {
+        trigger: ".headanimi3",
+        scrub: 1,
+        start: "top 100%",
+        end: "+=500px",
+      }
+    });
+
+})
+
+
     return (
-        <div className='relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
+        <div className=' ref={horizontalScrollContainer} relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
             <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[18rem] sticky top-[calc(100vh-18rem)/2] mobile:h-[auto] mobile:top-[calc(100vh-21rem)/2]'>
                 <p class="text-[1.28rem] pl-[8.33vw] tablet:pl-0">Gather Globally in +50,000 Properties</p>
                 <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>
-                    <div className='flex-shrink-0 mr-2 snap-center'>
+                    <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
                         <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
@@ -59,7 +106,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex-shrink-0 mr-2 snap-center'>
+                    <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
                         <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
@@ -112,7 +159,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex-shrink-0 mr-2 snap-center'>
+                    <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
                         <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
@@ -169,7 +216,7 @@ export default function Globally() {
                 </div>
                 <div class="hidden mobile:block relative w-full h-[22.2rem]"></div>
                 <div className='absolute w-auto cursor-pointer properties-row left-[100%] flex gap-[2rem] h-[14rem] mt-[1.45rem] mobile:h-[17.2rem] mobile:top-[4rem] '>
-                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
+                    <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -220,7 +267,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
+                    <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -271,7 +318,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3'>
+                    <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -322,7 +369,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[14.2rem] relative shrink-0 border-[#E6E6E6] border-[.06rem] bg-white-100 shadow-xxsm rounded-[1.2rem] px-[1.5rem] py-[1.65rem] mobile:w-[17.2rem]'>
+                    <div className='scroll-section w-[14.2rem] relative shrink-0 border-[#E6E6E6] border-[.06rem] bg-white-100 shadow-xxsm rounded-[1.2rem] px-[1.5rem] py-[1.65rem] mobile:w-[17.2rem]'>
                         <p class="text-3xl text-black">Early<span class="block">Access</span></p>
                         <div className='absolute bg-black rounded-full w-[3rem] h-[3rem] flex right-[.7rem] bottom-[.7rem] items-center justify-center'>
                             <img class="w-[1.05rem] h-auto" width="42" height="43" src='./Buenro-11.svg' />
