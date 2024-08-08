@@ -10,7 +10,7 @@ export default function Slider() {
 
     useEffect(() => {
         gsap.set('#left-slider', { x: 0, duration: 1 }, 0)
-        gsap.set('#right-slider', { x: -500, duration: 1 }, 0)
+        gsap.set('#right-slider', { x: -800, duration: 1 }, 0)
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.three-slide',
