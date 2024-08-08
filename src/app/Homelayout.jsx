@@ -20,7 +20,7 @@ export default function Homelayout() {
         <Join/>
         <Buenro/>
         <Connect/>
-        <Create/>
+        {/* <Create/> */}
         <Carlos/>
         <Circle/>
         <Trusted/>
