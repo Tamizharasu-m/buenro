@@ -6,7 +6,7 @@ export default function Create() {
    
 
     return (
-        <div className='h-[400vh] md:h-auto container mx-auto'>
+        <div className='h-[400vh] h-auto '>
             <div className=' h-screen mt-[-50px] w-full sticky top-0 hidden md:flex'>
                 <div className='absolute w-full h-screen overflow-hidden pin-text'>
                     <p  className='text-[calc(1.3rem+2.53vw)] md:text-[2rem] top-[7rem] absolute left-[calc(.5rem+14vw)] md:left-[calc(.3rem+10vw)]'>Create</p>
