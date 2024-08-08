@@ -39,8 +39,8 @@ const Navbar = () => {
                                     <div className='absolute w-full h-full border-[.07rem] border-white-100 rounded-full shadow-sm burger-bg bg-white-100'>
                                     </div>
                                     <div className='flex flex-col items-center justify-center rounded-full burger-lines gap-[.18rem] w-[1.8em] h-[1.85em] cursor-pointer  '>
-                                        {/* <img className='relative z-[100] w-[.72em] h-full' src="./Header/Buenro-5.svg" alt="" /> */}
-                                        <img className='absolute h-[.55rem] mobile:h-[.8rem]' src="./Header/Buenro-5.svg" alt="" />
+                                        <img className='relative z-[100] w-[.72em] h-full' src="./Header/Buenro-5.svg" alt="" />
+                                        {/* <img className='absolute h-[.55rem] mobile:h-[.8rem]' src="./Header/Buenro-5.svg" alt="" /> */}
                                     </div>
                                 </div>
                                 <div className='absolute top-[-10%] left-[-13%] right-[-13%] bottom-[-13%]'>
