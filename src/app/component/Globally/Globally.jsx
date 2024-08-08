@@ -14,7 +14,7 @@ export default function Globally() {
     useEffect(() => {
     const sections = gsap.utils.toArray('.scroll-section');
     gsap.registerPlugin(ScrollTrigger);
-    gsap.set(sections, { width: '2500px' });
+    gsap.set(sections, { width: '400px' });
     gsap.to(sections, {
         xPercent: -95 * (sections.length - 1),
         ease: 'none',
@@ -22,34 +22,34 @@ export default function Globally() {
             trigger: horizontalScrollContainer.current,
             pin: true,
             scrub: 1,
-            end: () => `+=${horizontalScrollContainer.current?.offsetWidth || 0}`,
+            end: () => `+=${horizontalScrollContainer.current?.offsetWidth }`,
         },
     });
-    const texts = new SplitType('.headanimi3', { types: 'chars' });
-    var charsa = texts.chars;
-    gsap.set(".headanimi3", { perspective: 400 });
-    gsap.from(charsa, {
-      duration: 0.5,
-      scale: 0,
-      y: 100,
-      delay: 1,
-      rotationX: 120,
-      transformOrigin: "0% 30% -30",
-      ease: "power4.out",
-      stagger: 0.01,
-      scrollTrigger: {
-        trigger: ".headanimi3",
-        scrub: 1,
-        start: "top 100%",
-        end: "+=500px",
-      }
-    });
+    // const texts = new SplitType('.headanimi3', { types: 'chars' });
+    // var charsa = texts.chars;
+    // gsap.set(".headanimi3", { perspective: 400 });
+    // gsap.from(charsa, {
+    //   duration: 0.5,
+    //   scale: 0,
+    //   y: 100,
+    //   delay: 1,
+    //   rotationX: 120,
+    //   transformOrigin: "0% 30% -30",
+    //   ease: "power4.out",
+    //   stagger: 0.01,
+    //   scrollTrigger: {
+    //     trigger: ".headanimi3",
+    //     scrub: 1,
+    //     start: "top 100%",
+    //     end: "+=500px",
+    //   }
+    // });
 
 })
 
 
     return (
-        <div className=' ref={horizontalScrollContainer} relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
+        <div ref={horizontalScrollContainer} className='  relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
             <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[18rem] sticky top-[calc(100vh-18rem)/2] mobile:h-[auto] mobile:top-[calc(100vh-21rem)/2]'>
                 <p class="text-[1.28rem] pl-[8.33vw] tablet:pl-0">Gather Globally in +50,000 Properties</p>
                 <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>
@@ -215,7 +215,7 @@ export default function Globally() {
                     <div class="w-[14.2rem] shrink-0 bg-black rounded-[1rem]"></div>
                 </div>
                 <div class="hidden mobile:block relative w-full h-[22.2rem]"></div>
-                <div className='absolute w-auto cursor-pointer properties-row left-[100%] flex gap-[2rem] h-[14rem] mt-[1.45rem] mobile:h-[17.2rem] mobile:top-[4rem] '>
+                <div className='absolute  cursor-pointer properties-row left-[100%] flex w-[100px] gap-[2rem] h-[14rem] mt-[1.45rem] mobile:h-[17.2rem] mobile:top-[4rem] '>
                     <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
