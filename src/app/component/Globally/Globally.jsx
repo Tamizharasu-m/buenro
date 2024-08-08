@@ -267,7 +267,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
+                    <div className='h-[392px] scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -318,7 +318,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3 flex justify-between'>
+                    <div className='h-[392px] scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3 flex justify-between'>
                         <div className='absolute top-0 left-0 m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -369,7 +369,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='scroll-section w-[14.2rem] relative shrink-0 border-[#E6E6E6] border-[.06rem] bg-white-100 shadow-xxsm rounded-[1.2rem] px-[1.5rem] py-[1.65rem] mobile:w-[17.2rem]'>
+                    <div className='h-[392px] scroll-section w-[14.2rem] relative shrink-0 border-[#E6E6E6] border-[.06rem] bg-white-100 shadow-xxsm rounded-[1.2rem] px-[1.5rem] py-[1.65rem] mobile:w-[17.2rem]'>
                         <p class="text-3xl text-black">Early<span class="block">Access</span></p>
                         <div className='absolute bg-black rounded-full w-[3rem] h-[3rem] flex right-[.7rem] bottom-[.7rem] items-center justify-center'>
                             <img class="w-[1.05rem] h-auto" width="42" height="43" src='./Buenro-11.svg' />
