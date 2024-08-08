@@ -361,7 +361,7 @@ export default function Globally() {
                                     <p class="text-white-100 text-xs z-20 lg:text-[13px] text-[.48rem] mobile:text-[.71rem]">Join 4 roomies</p>
                                 </div>
                             </div>
-                            <div className='flex flex-col gap-[.4rem] text-right justify-between z-20'>
+                            <div className='flex flex-col gap-[.4rem] text-right justify-between z-20 text-white'>
                                 <h4 class="text-white-100 text-xs z-20  lg:text-[13px] text-[.48rem] mobile:text-[.71rem]">Aug 22-27</h4>
                                 <div className='flex gap-2'>
                                     <p class="text-white-100 md:text-[15px] z-20 lg:text-[16px] text-[.6rem] mobile:text-[.9rem]">$ 129 night</p>
