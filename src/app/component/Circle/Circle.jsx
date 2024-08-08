@@ -296,7 +296,7 @@ export default function Circle() {
             start: "top 70%",
             end: "top top",
             scrub: true,
-            markers: true
+            
           }
         }
       );
