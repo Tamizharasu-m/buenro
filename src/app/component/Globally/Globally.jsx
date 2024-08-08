@@ -9,10 +9,10 @@ import Link from 'next/link';
 
 
 export default function Globally() {
-    const horizontalScrollContainer = useRef<HTMLDivElement>(null);
+    const horizontalScrollContainer = useRef(null);
 
     useEffect(() => {
-    const sections = gsap.utils.toArray<HTMLElement>('.scroll-section');
+    const sections = gsap.utils.toArray('.scroll-section');
     gsap.registerPlugin(ScrollTrigger);
     gsap.set(sections, { width: '2500px' });
     gsap.to(sections, {
