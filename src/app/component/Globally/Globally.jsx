@@ -333,7 +333,7 @@ export default function Globally() {
                         </div>
                         <div className='bg-[#00000078] backdrop:blur absolute bottom-[7px] left-[7px] right-[7px] lg:bottom-[0.3rem] lg:left-[0.3rem] lg:right-[0.3rem] p-4 lg:py-[0.6rem] lg:px-3 rounded-[25px] lg:rounded-8.75 flex justify-between lg:min-h-oneRow lg:items-center'>
                             <div class="absolute inset-0 rounded-[.9rem] lg:rounded-[.9rem] lg:min-h-oneRow mobile:rounded-[1.4rem]"></div>
-                            <div className='flex flex-col gap-[.4rem] justify-between z-20'>
+                            <div className='flex flex-col gap-[.4rem] justify-between z-20 text-white'>
                                 <h4 class="text-white-100 z-20 lg:text-sm25 text-[.6rem] mobile:text-[.9rem]">Mykonos, Greece</h4>
                                 <div className='flex gap-[0.6rem] justify-start'>
                                     <div className='flex lg:items-center'>
