@@ -338,7 +338,7 @@ export default function Globally() {
                                 <div className='flex gap-[0.6rem] justify-start'>
                                     <div className='flex lg:items-center'>
                                         <div className='relative pb-[.1rem]'>
-                                            <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
+                                            <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.50rem] lg:w-[.50rem]'>
                                                 <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person3.webp 640w, ./profile/person3.webp 750w, ./profile/person3.webp 828w, ./profile/person3.webp 1080w, ./profile/person3.webp 1200w, ./profile/person3.webp 1920w, ./profile/person3.webp 2048w, ./profile/person3.webp 3840w' src='./profile/person3.webp' />
                                             </div>
                                         </div>
