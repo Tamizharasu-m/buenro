@@ -116,7 +116,8 @@ export default function Join() {
                 <div className=' bg-gray-50'>
 
                     <Swiper
-                    
+                        
+                        
                     
                         spaceBetween={30}
                         slidesPerView={5}
