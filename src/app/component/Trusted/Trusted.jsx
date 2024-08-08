@@ -17,7 +17,7 @@ export default function Trusted() {
                 start: 'top 80%',
                 end: 'bottom 100%',
                 scrub: true,
-                markers: true,
+                
             }
         });
 
@@ -39,7 +39,7 @@ export default function Trusted() {
                 start: 'top 80%',
                 end: 'bottom 100%',
                 scrub: true,
-                markers: false,
+                
             }
         });
 
