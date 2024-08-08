@@ -112,7 +112,7 @@ export default function Join() {
 
                 <div className=' bg-gray-50'>
 
-                </div> *
+                </div> 
                 <div className=' bg-gray-50'>
 
                     <Swiper

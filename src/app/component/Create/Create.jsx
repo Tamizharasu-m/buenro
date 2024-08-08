@@ -1,11 +1,15 @@
 import React from 'react'
 
 export default function Create() {
+   
+
+   
+
     return (
         <div className='h-[400vh] md:h-auto container mx-auto'>
-            <div className='h-screen mt-[-50vh] w-full sticky top-0 hidden md:flex'>
+            <div className=' h-screen mt-[-50px] w-full sticky top-0 hidden md:flex'>
                 <div className='absolute w-full h-screen overflow-hidden pin-text'>
-                    <p className='text-[calc(1.3rem+2.53vw)] md:text-[2rem] top-[7rem] absolute left-[calc(.5rem+14vw)] md:left-[calc(.3rem+10vw)]'>Create</p>
+                    <p  className='text-[calc(1.3rem+2.53vw)] md:text-[2rem] top-[7rem] absolute left-[calc(.5rem+14vw)] md:left-[calc(.3rem+10vw)]'>Create</p>
                     <p className='text-[calc(1.3rem+2.53vw)] md:text-[2rem] bottom-[9.3rem] absolute right-[calc(.55rem+15vw)] md:right-[calc(.35rem+10vw)]'>Events</p>
                 </div>
                 <div className='absolute w-full h-screen overflow-hidden pin-text'>
