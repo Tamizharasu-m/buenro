@@ -17,7 +17,7 @@ export default function Slider() {
                 start: 'top 100%',
                 end: 'bottom 40%',
                 scrub: true,
-                markers: true,
+                markers: false,
             }
         });
 
