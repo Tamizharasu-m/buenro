@@ -293,8 +293,8 @@ export default function Circle() {
           ease: "pronouncedEase",  
           scrollTrigger: {
             trigger: ".circle",
-            start: "top 70%",
-            end: "top top",
+            start: "top 50%",
+            end: "bottom 30%",
             scrub: true,
             
           }
