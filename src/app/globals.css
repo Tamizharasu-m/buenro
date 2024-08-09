@@ -157,12 +157,30 @@ html {
 
 .bg-image1{
   background-image: url("/props1.jpg");
+  scale: 1;
+}
+
+.bg-image1:hover{
+  background-image: url("/props1.jpg");
+  scale: 2;
 }
 
 .bg-image2{
   background-image: url("/props2.jpg");
+  scale: 1;
+}
+
+.bg-image2{
+  background-image: url("/props2.jpg");
+  scale: 2;
 }
 
 .bg-image3{
   background-image: url("/props4.jpg");
+  scale: 1;
+}
+
+.bg-image3{
+  background-image: url("/props4.jpg");
+  scale: 2;
 }
