@@ -31,7 +31,7 @@ export default function Events() {
     }, []);
 
     return (
-        <div className='three-box scs-container pb-[10%] md:flex w-full justify-center mt-[calc(1rem+15vh)] gap-[2rem] md:flex-row md:items-center mobile:px-[1.2rem] mobile:mt-[5rem] px-[22.464px]'>
+        <div className='three-box  pb-[10%] md:flex w-full justify-center mt-[calc(1rem+15vh)] gap-[2rem] md:flex-row md:items-center mobile:px-[1.2rem] mobile:mt-[5rem] px-[22.464px]'>
             <div className='flex flex-col sc-col gap-[2rem]'>
                 <div className='h-[23.6rem] overflow-hidden bg-yellow-grad px-[1.2rem] capitalize gap-[1rem] pt-[1.6rem] text-center w-[15.22rem] rounded-[1.3rem] items-center border-[.09rem] border-black flex flex-col mobile:w-full mobile:pt-[2.2rem] mobile:border-[.16rem] mobile:px-[1rem] mobile:gap-[1.4rem] mobile:rounded-[2.2rem] mobile:h-[38rem]'>
                     <p class="text-regular45 leading-[1.5] mb-[-.3rem] mobile:text-[1.75rem]">Gather in events</p>
