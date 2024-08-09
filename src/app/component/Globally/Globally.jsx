@@ -319,7 +319,7 @@ export default function Globally() {
                         </div>
                     </div>
                     <div className='h-[392px] scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3'>
-                        <div className='flex items-center justify-between'>
+                        <div className='flex flex-col items-center justify-between'>
                         <div className='absolute top-0  m-[0.57rem]'>
                             <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
