@@ -283,8 +283,8 @@ export default function Circle() {
       gsap.fromTo('.circle',
         {
           scale: 1.5,
-          yPercent: -100,  // Increase the starting Y percent for a more dramatic curve
-          xPercent: -100   // Increase the starting X percent for a more dramatic curve
+          yPercent: 0,  // Increase the starting Y percent for a more dramatic curve
+          xPercent: 0   // Increase the starting X percent for a more dramatic curve
         },
         {
           scale: 1,
@@ -306,6 +306,21 @@ export default function Circle() {
   }, []);
 
   
+    useEffect(() => {
+      gsap.to(".rotating-image", {
+        scrollTrigger: {
+          trigger: ".rotating-image",
+          start: "top center", // Start when the top of the image hits the center of the viewport
+          end: "bottom center", // End when the bottom of the image hits the center of the viewport
+          scrub: true, // Smooth scrubbing
+          markers: true, // Shows markers for debugging (optional)
+        },
+        rotation: 90, // Rotate 360 degrees
+        ease: "none",
+      });
+    }, []);
+
+  
 
 
   return (
@@ -315,7 +330,7 @@ export default function Circle() {
           <p className="text-[2.78rem] w-[8ch] mx-auto text-center lg:text-[76px] absolute">
             Join Circles
           </p>
-          <div className="absolute flex items-center justify-center top-0 w-[calc(33vh+16rem)] h-[calc(33vh+16rem)] circles-container mobile:w-full mobile:h-[115vw]">
+          <div className="rotating-image absolute flex items-center justify-center top-0 w-[calc(33vh+16rem)] h-[calc(33vh+16rem)] circles-container mobile:w-full mobile:h-[115vw]">
             {[
               { top: "2.5%", imgSrc: "./face/1.webp" },
               { top: "30.5%", left: "0%", translateY: "-50%", imgSrc: "./face/2.webp" },
@@ -324,9 +339,9 @@ export default function Circle() {
               { bottom: "30.5%", right: "0%", translateY: "50%", imgSrc: "./face/5.webp" },
               { top: "30.5%", right: "0%", translateY: "-50%", imgSrc: "./face/6.webp" },
             ].map((style, index) => (
-              <div
+              <div 
                 key={index}
-                className="circle absolute w-[5.47rem] h-[5.47rem] shadow-lg rounded-full bg-white border border-white  mobile:w-[4.8rem] mobile:h-[4.8rem]"
+                className=" circle absolute w-[5.47rem] h-[5.47rem] shadow-lg rounded-full bg-white border border-white  mobile:w-[4.8rem] mobile:h-[4.8rem]"
                 style={{
                   top: style.top,
                   bottom: style.bottom,
