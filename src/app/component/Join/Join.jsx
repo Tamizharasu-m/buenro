@@ -175,7 +175,7 @@ export default function Join() {
                         // className="mySwiper "
 
                         autoplay={{
-                            delay: 1900
+                            delay: 2000
                         }}
                         loop
                         modules={[Autoplay]}
