@@ -15,7 +15,7 @@ export default function Buenro() {
             scrollTrigger: {
                 trigger: '.three-slides',
                 start: 'top 200%',
-                end: 'bottom 180%',
+                end: 'bottom 200%',
                 scrub: true,
                 markers: false,
             }
@@ -23,6 +23,28 @@ export default function Buenro() {
 
         tl.to('#left-buenro', { x: 0, duration: 1 }, 0)
             .to('#right-buenro', { x: 0, duration: 1 }, 0);
+
+        return () => {
+            if (tl.scrollTrigger) tl.scrollTrigger.kill();
+            tl.kill();
+        };
+    }, []);
+
+    useEffect(() => {
+        gsap.set('#left-buenro1', { x: -400, duration: 1 }, 0)
+        gsap.set('#right-buenro1', { x: 400, duration: 1 }, 0)
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.three-slides',
+                start: 'top 200%',
+                end: 'bottom 190%',
+                scrub: true,
+                markers: false,
+            }
+        });
+
+        tl.to('#left-buenro1', { x: 0, duration: 1 }, 0)
+            .to('#right-buenro1', { x: 0, duration: 1 }, 0);
 
         return () => {
             if (tl.scrollTrigger) tl.scrollTrigger.kill();
@@ -57,7 +79,7 @@ export default function Buenro() {
                     </div>
                     <div className='white-vignette'></div>
                     <div className='hidden mask-container md:flex'>
-                        <div  id='left-buenro' className='left-pin w-[40vw] h-screen absolute top-0 '>
+                        <div  id='left-buenro1' className='left-pin w-[40vw] h-screen absolute top-0 '>
                             <div className='w-[5.31rem] absolute h-[5.31rem] top-[33.2%] left-[35.2%] rounded-full p-[.16rem] bg-white shadow-sm'>
                                 {/* <img loading='lazy' width="2000" height="2000" decoding='async' data-nimg="1" className='rounded-[100%] w-full h-full object-cover object-top' srcSet='./new-m10.jpg 1x, ./new-m10.jpg 2x' src="./new-m10.jpg" alt="" /> */}
                                 <img
@@ -70,7 +92,7 @@ export default function Buenro() {
                             <div className='left-[45.3%] top-[calc(33.3%+5.31rem)] blue-pin'></div>
                         </div>
                         <div className='right-pin w-[40vw] h-screen absolute top-0 right-0'>
-                            <div  id='right-buenro' className='right-pin w-[40vw] h-screen absolute top-0 right-0'>
+                            <div  id='right-buenro1' className='right-pin w-[40vw] h-screen absolute top-0 right-0'>
                                 <div className='w-[5.31rem] absolute h-[5.31rem] right-[38.2%] top-[33.2%] rounded-full p-[.16rem] bg-white shadow-sm'>
                                     {/* <img loading='lazy' width="2000" height="2000" decoding='async' data-nimg="1" className='rounded-[100%] w-full h-full object-cover object-top' srcSet='./new.jpg 1x, ./new.jpg 2x' src="./new.jpg" alt="" /> */}
                                     <img

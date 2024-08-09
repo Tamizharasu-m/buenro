@@ -305,37 +305,7 @@ export default function Circle() {
     return () => ctx.revert();
   }, []);
 
-  // eleven
-  // useEffect(() => {
-  //   const ctx = gsap.context(() => {
-  //     gsap.to('.circle', {
-  //       duration: 2, // Adjust duration for the animation
-  //       xPercent: -100, // Adjust xPercent to control horizontal movement
-  //       yPercent: -100, // Adjust yPercent to control vertical movement
-  //       scale: 1, // Adjust scale as needed
-  //       ease: "power3.inOut", // Smooth transition
-  //       scrollTrigger: {
-  //         trigger: ".circle",
-  //         start: "top 70%",
-  //         end: "top top",
-  //         scrub: true,
-  //         markers: true
-  //       },
-  //       modifiers: {
-  //         xPercent: (xPercent) => {
-  //           // Apply custom transformation to xPercent to create a curve
-  //           return xPercent * 0.5; // Adjust the factor to control the curve
-  //         },
-  //         yPercent: (yPercent) => {
-  //           // Apply custom transformation to yPercent to create a curve
-  //           return yPercent * 1.5; // Adjust the factor to control the curve
-  //         }
-  //       }
-  //     });
-  //   });
-
-  //   return () => ctx.revert();
-  // }, []);
+  
 
 
   return (
