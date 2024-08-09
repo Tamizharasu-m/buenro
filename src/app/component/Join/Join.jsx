@@ -44,7 +44,7 @@ export default function Join() {
 
     return (
         <>
-            <div className='overflow-hidden h-[100vh] lg:h-auto'>
+            <div className='h-auto overflow-hidden'>
                 <div className='flex flex-col gap-[.6rem] pt-[3.8rem] pb-[1.6rem] h-[calc(6rem+19vh)] justify-evenly mobile:pt-[8rem] mobile:h-auto'>
                     <div>
                         <div>
@@ -110,9 +110,7 @@ export default function Join() {
 
             </div> */}
 
-                <div className=' bg-gray-50'>
-
-                </div> 
+                
                 <div className=' bg-gray-50'>
 
                     <Swiper
@@ -124,7 +122,7 @@ export default function Join() {
         
                                
         
-                                slidesPerView: 5,
+                                slidesPerView: 1,
         
                                 centeredSlides: true,
                                 spaceBetween : 2
@@ -166,7 +164,7 @@ export default function Join() {
                             },
                         }}
                     
-                        spaceBetween={20}
+                        spaceBetween={30}
                         slidesPerView={5}
                         pagination={{
                             dynamicBullets: false,
