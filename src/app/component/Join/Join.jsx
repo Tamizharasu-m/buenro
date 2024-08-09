@@ -170,7 +170,7 @@ export default function Join() {
                             dynamicBullets: false,
                         }}
 
-
+                        centeredSlides = {true}
                         // modules={[Pagination]} 
                         // className="mySwiper "
 
@@ -183,19 +183,19 @@ export default function Join() {
 
                     >
                         <SwiperSlide >
-                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem]  min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
+                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="bg-blur w-[7.8rem]  min-w-[16.66vw]  h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/1.webp 1x, ./mobile/1.webp 2x' src='./mobile/1.webp' /></SwiperSlide>
                         <SwiperSlide >
-                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem] min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/2.webp 1x, ./mobile/2.webp 2x' src='./mobile/2.webp' /></SwiperSlide>
+                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="bg-blur w-[7.8rem] min-w-[16.66vw]  h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/2.webp 1x, ./mobile/2.webp 2x' src='./mobile/2.webp' /></SwiperSlide>
                         <SwiperSlide >
-                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem] min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/3.webp 1x, ./mobile/3.webp 2x' src='./mobile/3.webp' /></SwiperSlide>
+                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="bg-blur w-[7.8rem] min-w-[16.66vw]  h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/3.webp 1x, ./mobile/3.webp 2x' src='./mobile/3.webp' /></SwiperSlide>
                         <SwiperSlide >
-                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem] min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/6.webp 1x, ./mobile/6.webp 2x' src='./mobile/6.webp' /></SwiperSlide>
+                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="bg-blur w-[7.8rem] min-w-[16.66vw]  h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/6.webp 1x, ./mobile/6.webp 2x' src='./mobile/6.webp' /></SwiperSlide>
                         <SwiperSlide >
-                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem] min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/9.webp 1x, ./mobile/9.webp 2x' src='./mobile/9.webp' /></SwiperSlide>
+                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="bg-blur w-[7.8rem] min-w-[16.66vw]  h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/9.webp 1x, ./mobile/9.webp 2x' src='./mobile/9.webp' /></SwiperSlide>
                         <SwiperSlide >
-                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem] min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/12.webp 1x, ./mobile/12.webp 2x' src='./mobile/12.webp' /></SwiperSlide>
+                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="bg-blur w-[7.8rem] min-w-[16.66vw]  h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/12.webp 1x, ./mobile/12.webp 2x' src='./mobile/12.webp' /></SwiperSlide>
                         <SwiperSlide >
-                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="w-[7.8rem] min-w-[16.66vw] opacity-[.3] h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/17.webp 1x, ./mobile/17.webp 2x' src='./mobile/17.webp' /></SwiperSlide>
+                            <img alt="" loading="lazy" width="644" height="1400" decoding="async" data-nimg="1" class="bg-blur w-[7.8rem] min-w-[16.66vw]  h-auto bg-black rounded-[1.1rem] border-[.08rem] border-[#F2F2F2] lg:w-[11.8rem] " srcSet='./mobile/17.webp 1x, ./mobile/17.webp 2x' src='./mobile/17.webp' /></SwiperSlide>
 
 
                     </Swiper>

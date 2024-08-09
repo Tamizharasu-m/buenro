@@ -187,3 +187,13 @@ html {
   scale: 1.2;
   transition: all linear 1.3s;
 }
+
+.swiper-slide-active{
+  border: 2.5px solid black;
+  opacity: 1 !important; 
+  border-radius: 35px;
+}
+
+.swiper-slide{
+  opacity: .3;
+}
