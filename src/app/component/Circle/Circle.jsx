@@ -358,7 +358,7 @@ export default function Circle() {
           <p className="text-[2.78rem] w-[8ch] mx-auto text-center lg:text-[76px] absolute">
             Join Circles
           </p>
-          <div className="image-rotate absolute flex items-center justify-center top-0 w-[calc(33vh+16rem)] h-[calc(33vh+16rem)] circles-container mobile:w-full mobile:h-[115vw]">
+          <div className="image-rotate absolute flex items-center justify-center top-0 w-[calc(33vh+16rem)] h-[calc(33vh+16rem)]  ">
             {[
               { top: "2.5%", imgSrc: "./face/1.webp" },
               { top: "30.5%", left: "0%", translateY: "-50%", imgSrc: "./face/2.webp" },
@@ -369,7 +369,7 @@ export default function Circle() {
             ].map((style, index) => (
               <div 
                 key={index}
-                className=" circle absolute w-[5.47rem] h-[5.47rem] shadow-lg rounded-full bg-white border border-white  mobile:w-[4.8rem] mobile:h-[4.8rem]"
+                className=" circle absolute w-[5.47rem] h-[5.47rem] shadow-lg rounded-full bg-white border border-white  "
                 style={{
                   top: style.top,
                   bottom: style.bottom,
