@@ -44,7 +44,7 @@ export default function Join() {
 
     return (
         <>
-            <div className='h-auto overflow-hidden'>
+            <div className='h-auto overflow-hidden bg-white'>
                 <div className='flex flex-col gap-[.6rem] pt-[3.8rem] pb-[1.6rem] h-[calc(6rem+19vh)] justify-evenly mobile:pt-[8rem] mobile:h-auto'>
                     <div>
                         <div>
