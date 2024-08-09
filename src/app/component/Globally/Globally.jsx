@@ -372,7 +372,7 @@ export default function Globally() {
                     <div className='h-[392px] scroll-section w-[14.2rem] relative shrink-0 border-[#E6E6E6] border-[.06rem] bg-white-100 shadow-xxsm rounded-[1.2rem] px-[1.5rem] py-[1.65rem] mobile:w-[17.2rem]'>
                         <p class="text-3xl text-black">Early<span class="block">Access</span></p>
                         <div className='absolute bg-black rounded-full w-[3rem] h-[3rem] flex right-[.7rem] bottom-[.7rem] items-center justify-center'>
-                            <img class="w-[1.05rem] h-auto text-white" width="42" height="43" src='./Buenro-9.svg' />
+                        <svg class="w-[1.05rem] h-auto" xmlns="http://www.w3.org/2000/svg" width="42" height="43" viewBox="0 0 42 43" fill="none"><path d="M0.933775 37.0627C-0.20629 38.2027 -0.20629 40.0512 0.933775 41.1912C2.07384 42.3313 3.92225 42.3313 5.06232 41.1912L0.933775 37.0627ZM41.2393 3.80498C41.2393 2.19268 39.9323 0.885655 38.32 0.885655H12.0461C10.4338 0.885655 9.12682 2.19268 9.12682 3.80498C9.12682 5.41727 10.4338 6.7243 12.0461 6.7243L35.4007 6.7243L35.4007 30.0789C35.4007 31.6912 36.7077 32.9982 38.32 32.9982C39.9323 32.9982 41.2393 31.6912 41.2393 30.0789V3.80498ZM5.06232 41.1912L40.3843 5.86925L36.2558 1.7407L0.933775 37.0627L5.06232 41.1912Z" fill="white"></path></svg>
                         </div>
                     </div>
                 </div>
