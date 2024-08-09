@@ -325,7 +325,7 @@ export default function Globally() {
                                 <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
                             </div>
                         </div>
-                        <div className='absolute top-0 right-[0]  m-[0.57rem]'>
+                        <div className='absolute top-0 right-[-10px]  m-[0.57rem]'>
                             <span className='flex items-center px-2 text-xs font-semibold text-white rounded lg:px-0-full backdrop:blur lg:text-[0.45rem]'>
                                 <div className='relative w-[28px] h-[28px] lg:w-[1.2rem] lg:h-[1.2rem]'>
                                     <img alt="heart icon" loading="lazy" decoding="async" data-nimg="fill" class=" " src="./Buenro-15.svg" />
