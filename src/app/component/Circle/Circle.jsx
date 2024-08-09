@@ -293,9 +293,10 @@ export default function Circle() {
           ease: "pronouncedEase",  
           scrollTrigger: {
             trigger: ".circle",
-            start: "top 50%",
-            end: "bottom 30%",
+            start: "top 100%",
+            end: "bottom 80%",
             scrub: true,
+            
             
           }
         }
@@ -306,19 +307,46 @@ export default function Circle() {
   }, []);
 
   
+    // useEffect(() => {
+    //   gsap.to(".rotating-image", 
+    //     {rotate: -40},
+    //     {
+    //       rotate: 40,
+    //     scrollTrigger: {
+    //       trigger: ".rotating-image",
+    //       start: "top 50%", // Start when the top of the image hits the center of the viewport
+    //       end: "bottom 30%", // End when the bottom of the image hits the center of the viewport
+    //       scrub: true, // Smooth scrubbing
+    //       markers: true, // Shows markers for debugging (optional)
+    //     },
+    //      // Rotate 360 degrees
+    //   }
+        
+    //   );
+    // }, []);
+
+
     useEffect(() => {
-      gsap.to(".rotating-image", {
-        scrollTrigger: {
-          trigger: ".rotating-image",
-          start: "top center", // Start when the top of the image hits the center of the viewport
-          end: "bottom center", // End when the bottom of the image hits the center of the viewport
-          scrub: true, // Smooth scrubbing
-          markers: true, // Shows markers for debugging (optional)
-        },
-        rotation: 90, // Rotate 360 degrees
-        ease: "none",
+      gsap.set('.image-rotate', { rotate:-50 }, 0)
+      
+      const tl = gsap.timeline({
+          scrollTrigger: {
+              trigger: '.image-rotate',
+              start: 'top 100%',
+              end: 'bottom 80%',
+              scrub: true,
+              markers: false,
+          }
       });
-    }, []);
+
+      tl.to('.image-rotate', { rotate:0 }, 0)
+         
+
+      return () => {
+          if (tl.scrollTrigger) tl.scrollTrigger.kill();
+          tl.kill();
+      };
+  }, []);
 
   
 
@@ -330,7 +358,7 @@ export default function Circle() {
           <p className="text-[2.78rem] w-[8ch] mx-auto text-center lg:text-[76px] absolute">
             Join Circles
           </p>
-          <div className="rotating-image absolute flex items-center justify-center top-0 w-[calc(33vh+16rem)] h-[calc(33vh+16rem)] circles-container mobile:w-full mobile:h-[115vw]">
+          <div className="image-rotate absolute flex items-center justify-center top-0 w-[calc(33vh+16rem)] h-[calc(33vh+16rem)] circles-container mobile:w-full mobile:h-[115vw]">
             {[
               { top: "2.5%", imgSrc: "./face/1.webp" },
               { top: "30.5%", left: "0%", translateY: "-50%", imgSrc: "./face/2.webp" },
