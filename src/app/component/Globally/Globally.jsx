@@ -161,6 +161,7 @@ export default function Globally() {
                     </div>
                     <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
                         <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image3'>
+                        <div className='flex flex-row items-center justify-between'>
                             <div className='absolute top-0 left-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                     <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
@@ -172,6 +173,7 @@ export default function Globally() {
                                         <img alt="heart icon" loading="lazy" decoding="async" data-nimg="fill" class=" " src="./Buenro-15.svg" />
                                     </div>
                                 </span>
+                            </div>
                             </div>
                             <div className='absolute bottom-[7px] left-[7px] right-[7px] lg:bottom-[0.3rem] lg:left-[0.3rem] lg:right-[0.3rem] p-4 lg:py-[0.6rem] lg:px-3 rounded-[25px] lg:rounded-8.75 flex justify-between lg:min-h-oneRow lg:items-center'>
                                 <div class="absolute inset-0 rounded-[.9rem] lg:rounded-[.9rem] lg:min-h-oneRow mobile:rounded-[1.4rem]"></div>
