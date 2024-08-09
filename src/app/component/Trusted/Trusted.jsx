@@ -66,7 +66,7 @@ export default function Trusted() {
                 </div>
             </div>
             <div>
-            <div className='md:absolute top-0 left-0 right-0 mx-auto w-[24ch] md:h-screen flex flex-col justify-center gap-[.9rem]  md:pb-[3.1rem] md:min-h-[13rem] md:mt-[0]  md:w-[52%] md:text-[1.1rem] mobile:w-[85%] mobile:gap-[2rem] mobile:text-[1.26rem] pt-[71px] md:pt-[0] '>
+            <div className='md:absolute top-0 left-0 right-0 mx-auto w-[24ch] md:h-screen flex flex-col justify-center gap-[.9rem]  md:pb-[3.1rem] md:min-h-[13rem] md:mt-[0]  md:w-[52%] md:text-[1.1rem] pt-[71px] md:pt-[0] '>
                 <h5 class="text-[1.9em] leading-[1.5] mobile:text-[1.75rem]">Connect with <span class="text-[#999999]"><br></br>Trusted</span> Circles</h5>
                 <p class="text-regular30 mobile:text-[.759em] mobile:text-[.87rem] mobile:max-w-[34ch] mobile:w-auto mobile:mx-auto">Transform how you connect with your<br></br> trusted social circles - from private<br></br> members clubs, to leadership networks,<br></br> conferences, and festivals.</p>
             </div>
