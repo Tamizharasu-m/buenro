@@ -232,7 +232,7 @@ export default function Globally() {
                         <div className='bg-[#00000078] backdrop:blur absolute bottom-[7px] left-[7px] right-[7px] lg:bottom-[0.3rem] lg:left-[0.3rem] lg:right-[0.3rem] p-4 lg:py-[0.6rem] lg:px-3 rounded-[25px] lg:rounded-8.75 flex justify-between lg:min-h-oneRow lg:items-center'>
                             <div class="absolute inset-0 rounded-[.9rem] lg:rounded-[.9rem] lg:min-h-oneRow mobile:rounded-[1.4rem]"></div>
                             <div className='flex flex-col gap-[.4rem] justify-between z-20'>
-                                <h4 class="text-white-100 z-20 lg:text-sm25 text-[.6rem] mobile:text-[.9rem]">Mykonos, Greece</h4>
+                                <h4 class="text-white z-20 lg:text-sm25 text-[.6rem] mobile:text-[.9rem]">Mykonos, Greece</h4>
                                 <div className='flex gap-[0.6rem] justify-start'>
                                     <div className='flex lg:items-center'>
                                         <div className='relative pb-[.1rem]'>
@@ -256,13 +256,13 @@ export default function Globally() {
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="text-white-100 text-xs z-20 lg:text-sm20 text-[.48rem] mobile:text-[.71rem]">Join 4 roomies</p>
+                                    <p class="text-white text-xs z-20 lg:text-[13px] text-[.48rem] mobile:text-[.71rem]">Join 4 roomies</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-[.4rem] text-right justify-between z-20'>
-                                <h4 class="text-white-100 text-xs z-20  lg:text-sm20 text-[.48rem] mobile:text-[.71rem]">Aug 22-27</h4>
+                                <h4 class="text-white text-xs z-20  lg:text-[13px] text-[.48rem] mobile:text-[.71rem]">Aug 22-27</h4>
                                 <div className='flex gap-2'>
-                                    <p class="text-white-100 md:text-[15px] z-20 lg:text-sm25 text-[.6rem] mobile:text-[.9rem]">$ 129 night</p>
+                                    <p class="text-white md:text-[15px] z-20 lg:text-[16px] text-[.6rem] mobile:text-[.9rem]">$ 129 night</p>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +283,7 @@ export default function Globally() {
                         <div className='bg-[#00000078] backdrop:blur absolute bottom-[7px] left-[7px] right-[7px] lg:bottom-[0.3rem] lg:left-[0.3rem] lg:right-[0.3rem] p-4 lg:py-[0.6rem] lg:px-3 rounded-[25px] lg:rounded-8.75 flex justify-between lg:min-h-oneRow lg:items-center'>
                             <div class="absolute inset-0 rounded-[.9rem] lg:rounded-[.9rem] lg:min-h-oneRow mobile:rounded-[1.4rem]"></div>
                             <div className='flex flex-col gap-[.4rem] justify-between z-20'>
-                                <h4 class="text-white-100 z-20 lg:text-sm25 text-[.6rem] mobile:text-[.9rem]">Mykonos, Greece</h4>
+                                <h4 class="text-white z-20 lg:text-sm25 text-[.6rem] mobile:text-[.9rem]">Mykonos, Greece</h4>
                                 <div className='flex gap-[0.6rem] justify-start'>
                                     <div className='flex lg:items-center'>
                                         <div className='relative pb-[.1rem]'>
