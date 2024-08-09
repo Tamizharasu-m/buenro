@@ -224,12 +224,12 @@ export default function Globally() {
                 <div className='absolute  cursor-pointer properties-row left-[100%] flex w-[100px] gap-[2rem] h-[14rem] mt-[1.45rem] mobile:h-[17.2rem] mobile:top-[4rem] '>
                     <div className='scroll-section w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1 h-[392px]'>
                         <div className='flex flex-row items-center justify-between'>
-                            <div className='absolute top-0 left-0 m-[0.57rem]'>
+                            <div className='absolute top-0 m-[0.57rem]'>
                                 <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
                                     <span class="text-[11px] text-white-100 font-medium text-white lg:text-[0.45rem]">1 Spot left</span>
                                 </div>
                             </div>
-                            <div className='absolute top-0 left-0 right-[-10px] m-[0.57rem]'>
+                            <div className='absolute top-0  right-[-10px] m-[0.57rem]'>
                                 <span className='flex items-center px-2 text-xs font-semibold text-white rounded lg:px-0-full backdrop:blur lg:text-[0.45rem]'>
                                     <div className='relative w-[28px] h-[28px] lg:w-[1.2rem] lg:h-[1.2rem]'>
                                         <img alt="heart icon" loading="lazy" decoding="async" data-nimg="fill" class=" " src="./Buenro-15.svg" />
