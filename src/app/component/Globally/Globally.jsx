@@ -49,12 +49,12 @@ export default function Globally() {
 
 
     return (
-        <div ref={horizontalScrollContainer} className='  relative flex flex-col  bg-white-100 h-auto lg:h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
-            <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[600px] lg:h-[20rem] sticky top-[calc(100vh-18rem)/2] mobile:h-[auto] mobile:top-[calc(100vh-21rem)/2]'>
+        <div ref={horizontalScrollContainer} className='  relative flex flex-col  bg-white-100 h-auto lg:h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem]  '>
+            <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[600px] lg:h-[20rem] sticky top-[calc(100vh-18rem)/2] '>
                 <p class="text-[1.28rem] pl-[8.33vw] mt-[10px] lg:mt-[50px] tablet:pl-0">Gather Globally in +50,000 Properties</p>
                 <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>
                     <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
-                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
+                        <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] '>
                             <div className='flex flex-row items-center justify-between'>
                                 <div className='absolute top-0 left-0 m-[0.57rem]'>
                                     <div className='flex py-[.23rem] px-[.5rem] rounded-full bg-[#00000078] backdrop:blur'>
@@ -96,7 +96,7 @@ export default function Globally() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <p class="text-white-100 text-xs z-20 lg:text-sm20 text-[.48rem] mobile:text-[.71rem]">Join 4 roomies</p>
+                                        <p class="text-white-100 text-xs z-20 lg:text-sm20 text-[.48rem]">Join 4 roomies</p>
                                     </div>
                                 </div>
                                 <div className='flex flex-col gap-[.4rem] text-right justify-between z-20'>
@@ -108,7 +108,7 @@ export default function Globally() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
+                    <div className='flex-shrink-0 mr-2 snap-center'>
                         <div className='h-[392px] w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image2'>
                             <div className='flex flex-row items-center justify-between'>
                                 <div className='absolute top-0 left-0 m-[0.57rem]'>
