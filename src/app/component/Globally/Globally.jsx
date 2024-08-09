@@ -12,40 +12,40 @@ export default function Globally() {
     const horizontalScrollContainer = useRef(null);
 
     useEffect(() => {
-    const sections = gsap.utils.toArray('.scroll-section');
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.set(sections, { width: '400px' });
-    gsap.to(sections, {
-        xPercent: -95 * (sections.length - 1),
-        ease: 'none',
-        scrollTrigger: {
-            trigger: horizontalScrollContainer.current,
-            pin: true,
-            scrub: 1,
-            end: () => `+=${horizontalScrollContainer.current?.offsetWidth }`,
-        },
-    });
-    // const texts = new SplitType('.headanimi3', { types: 'chars' });
-    // var charsa = texts.chars;
-    // gsap.set(".headanimi3", { perspective: 400 });
-    // gsap.from(charsa, {
-    //   duration: 0.5,
-    //   scale: 0,
-    //   y: 100,
-    //   delay: 1,
-    //   rotationX: 120,
-    //   transformOrigin: "0% 30% -30",
-    //   ease: "power4.out",
-    //   stagger: 0.01,
-    //   scrollTrigger: {
-    //     trigger: ".headanimi3",
-    //     scrub: 1,
-    //     start: "top 100%",
-    //     end: "+=500px",
-    //   }
-    // });
+        const sections = gsap.utils.toArray('.scroll-section');
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.set(sections, { width: '400px' });
+        gsap.to(sections, {
+            xPercent: -95 * (sections.length - 1),
+            ease: 'none',
+            scrollTrigger: {
+                trigger: horizontalScrollContainer.current,
+                pin: true,
+                scrub: 1,
+                end: () => `+=${horizontalScrollContainer.current?.offsetWidth}`,
+            },
+        });
+        // const texts = new SplitType('.headanimi3', { types: 'chars' });
+        // var charsa = texts.chars;
+        // gsap.set(".headanimi3", { perspective: 400 });
+        // gsap.from(charsa, {
+        //   duration: 0.5,
+        //   scale: 0,
+        //   y: 100,
+        //   delay: 1,
+        //   rotationX: 120,
+        //   transformOrigin: "0% 30% -30",
+        //   ease: "power4.out",
+        //   stagger: 0.01,
+        //   scrollTrigger: {
+        //     trigger: ".headanimi3",
+        //     scrub: 1,
+        //     start: "top 100%",
+        //     end: "+=500px",
+        //   }
+        // });
 
-})
+    })
 
 
     return (
@@ -74,23 +74,23 @@ export default function Globally() {
                                     <div className='flex gap-[0.6rem] justify-start'>
                                         <div className='flex lg:items-center'>
                                             <div className='relative pb-[.1rem]'>
-                                                <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.50rem] lg:w-[.50rem]'>
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m5.jpg 640w, ./profile/new-m5.jpg 750w, ./profile/new-m5.jpg 828w, ./profile/new-m5.jpg 1080w, ./profile/new-m5.jpg 1200w, ./profile/new-m5.jpg 1920w, ./profile/new-m5.jpg 2048w, ./profile/new-m5.jpg 3840w' src='./profile/new-m5.jpg' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member1.jpg 640w, ./profile/member1.jpg 750w, ./profile/member1.jpg 828w, ./profile/member1.jpg 1080w, ./profile/member1.jpg 1200w, ./profile/member1.jpg 1920w, ./profile/member1.jpg 2048w, ./profile/member1.jpg 3840w' src='./profile/member1.jpg' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m4.webp 640w, ./profile/new-m4.webp 750w, ./profile/new-m4.webp 828w, ./profile/new-m4.webp 1080w, ./profile/new-m4.webp 1200w, ./profile/new-m4.webp 1920w, ./profile/new-m4.webp 2048w, ./profile/new-m4.webp 3840w' src='./profile/new-m4.webp' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member2.webp 640w, ./profile/member2.webp 750w, ./profile/member2.webp 828w, ./profile/member2.webp 1080w, ./profile/member2.webp 1200w, ./profile/member2.webp 1920w, ./profile/member2.webp 2048w, ./profile/member2.webp 3840w' src='./profile/member2.webp' />
                                                 </div>
                                             </div>
                                         </div>
@@ -127,23 +127,23 @@ export default function Globally() {
                                     <div className='flex gap-[0.6rem] justify-start'>
                                         <div className='flex lg:items-center'>
                                             <div className='relative pb-[.1rem]'>
-                                                <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.50rem] lg:w-[.50rem]'>
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m5.jpg 640w, ./profile/new-m5.jpg 750w, ./profile/new-m5.jpg 828w, ./profile/new-m5.jpg 1080w, ./profile/new-m5.jpg 1200w, ./profile/new-m5.jpg 1920w, ./profile/new-m5.jpg 2048w, ./profile/new-m5.jpg 3840w' src='./profile/new-m5.jpg' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member1.jpg 640w, ./profile/member1.jpg 750w, ./profile/member1.jpg 828w, ./profile/member1.jpg 1080w, ./profile/member1.jpg 1200w, ./profile/member1.jpg 1920w, ./profile/member1.jpg 2048w, ./profile/member1.jpg 3840w' src='./profile/member1.jpg' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m4.webp 640w, ./profile/new-m4.webp 750w, ./profile/new-m4.webp 828w, ./profile/new-m4.webp 1080w, ./profile/new-m4.webp 1200w, ./profile/new-m4.webp 1920w, ./profile/new-m4.webp 2048w, ./profile/new-m4.webp 3840w' src='./profile/new-m4.webp' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member2.webp 640w, ./profile/member2.webp 750w, ./profile/member2.webp 828w, ./profile/member2.webp 1080w, ./profile/member2.webp 1200w, ./profile/member2.webp 1920w, ./profile/member2.webp 2048w, ./profile/member2.webp 3840w' src='./profile/member2.webp' />
                                                 </div>
                                             </div>
                                         </div>
@@ -180,23 +180,23 @@ export default function Globally() {
                                     <div className='flex gap-[0.6rem] justify-start'>
                                         <div className='flex lg:items-center'>
                                             <div className='relative pb-[.1rem]'>
-                                                <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.50rem] lg:w-[.50rem]'>
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m5.jpg 640w, ./profile/new-m5.jpg 750w, ./profile/new-m5.jpg 828w, ./profile/new-m5.jpg 1080w, ./profile/new-m5.jpg 1200w, ./profile/new-m5.jpg 1920w, ./profile/new-m5.jpg 2048w, ./profile/new-m5.jpg 3840w' src='./profile/new-m5.jpg' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member1.jpg 640w, ./profile/member1.jpg 750w, ./profile/member1.jpg 828w, ./profile/member1.jpg 1080w, ./profile/member1.jpg 1200w, ./profile/member1.jpg 1920w, ./profile/member1.jpg 2048w, ./profile/member1.jpg 3840w' src='./profile/member1.jpg' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m4.webp 640w, ./profile/new-m4.webp 750w, ./profile/new-m4.webp 828w, ./profile/new-m4.webp 1080w, ./profile/new-m4.webp 1200w, ./profile/new-m4.webp 1920w, ./profile/new-m4.webp 2048w, ./profile/new-m4.webp 3840w' src='./profile/new-m4.webp' />
                                                 </div>
                                             </div>
                                             <div className='relative pb-[.1rem]'>
                                                 <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                    <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member2.webp 640w, ./profile/member2.webp 750w, ./profile/member2.webp 828w, ./profile/member2.webp 1080w, ./profile/member2.webp 1200w, ./profile/member2.webp 1920w, ./profile/member2.webp 2048w, ./profile/member2.webp 3840w' src='./profile/member2.webp' />
                                                 </div>
                                             </div>
                                         </div>
@@ -236,23 +236,23 @@ export default function Globally() {
                                 <div className='flex gap-[0.6rem] justify-start'>
                                     <div className='flex lg:items-center'>
                                         <div className='relative pb-[.1rem]'>
-                                            <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                            <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.50rem] lg:w-[.50rem]'>
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m5.jpg 640w, ./profile/new-m5.jpg 750w, ./profile/new-m5.jpg 828w, ./profile/new-m5.jpg 1080w, ./profile/new-m5.jpg 1200w, ./profile/new-m5.jpg 1920w, ./profile/new-m5.jpg 2048w, ./profile/new-m5.jpg 3840w' src='./profile/new-m5.jpg' />
                                             </div>
                                         </div>
                                         <div className='relative pb-[.1rem]'>
                                             <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1(1).webp 640w, ./profile/person1(1).webp 750w, ./profile/person1(1).webp 828w, ./profile/person1(1).webp 1080w, ./profile/person1(1).webp 1200w, ./profile/person1(1).webp 1920w, ./profile/person1(1).webp 2048w, ./profile/person1(1).webp 3840w' src='./profile/person1(1).webp' />
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member1.jpg 640w, ./profile/member1.jpg 750w, ./profile/member1.jpg 828w, ./profile/member1.jpg 1080w, ./profile/member1.jpg 1200w, ./profile/member1.jpg 1920w, ./profile/member1.jpg 2048w, ./profile/member1.jpg 3840w' src='./profile/member1.jpg' />
                                             </div>
                                         </div>
                                         <div className='relative pb-[.1rem]'>
                                             <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m4.webp 640w, ./profile/new-m4.webp 750w, ./profile/new-m4.webp 828w, ./profile/new-m4.webp 1080w, ./profile/new-m4.webp 1200w, ./profile/new-m4.webp 1920w, ./profile/new-m4.webp 2048w, ./profile/new-m4.webp 3840w' src='./profile/new-m4.webp' />
                                             </div>
                                         </div>
                                         <div className='relative pb-[.1rem]'>
                                             <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member2.webp 640w, ./profile/member2.webp 750w, ./profile/member2.webp 828w, ./profile/member2.webp 1080w, ./profile/member2.webp 1200w, ./profile/member2.webp 1920w, ./profile/member2.webp 2048w, ./profile/member2.webp 3840w' src='./profile/member2.webp' />
                                             </div>
                                         </div>
                                     </div>
@@ -287,23 +287,23 @@ export default function Globally() {
                                 <div className='flex gap-[0.6rem] justify-start'>
                                     <div className='flex lg:items-center'>
                                         <div className='relative pb-[.1rem]'>
-                                            <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                            <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.50rem] lg:w-[.50rem]'>
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m5.jpg 640w, ./profile/new-m5.jpg 750w, ./profile/new-m5.jpg 828w, ./profile/new-m5.jpg 1080w, ./profile/new-m5.jpg 1200w, ./profile/new-m5.jpg 1920w, ./profile/new-m5.jpg 2048w, ./profile/new-m5.jpg 3840w' src='./profile/new-m5.jpg' />
                                             </div>
                                         </div>
                                         <div className='relative pb-[.1rem]'>
                                             <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member1.jpg 640w, ./profile/member1.jpg 750w, ./profile/member1.jpg 828w, ./profile/member1.jpg 1080w, ./profile/member1.jpg 1200w, ./profile/member1.jpg 1920w, ./profile/member1.jpg 2048w, ./profile/member1.jpg 3840w' src='./profile/member1.jpg' />
                                             </div>
                                         </div>
                                         <div className='relative pb-[.1rem]'>
                                             <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/new-m4.webp 640w, ./profile/new-m4.webp 750w, ./profile/new-m4.webp 828w, ./profile/new-m4.webp 1080w, ./profile/new-m4.webp 1200w, ./profile/new-m4.webp 1920w, ./profile/new-m4.webp 2048w, ./profile/new-m4.webp 3840w' src='./profile/new-m4.webp' />
                                             </div>
                                         </div>
                                         <div className='relative pb-[.1rem]'>
                                             <div className='relative mr-[-0.3rem] w-[.6rem] h-[.6rem] lg:h-[.55rem] lg:w-[.55rem]'>
-                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/person1.webp 640w, ./profile/person1.webp 750w, ./profile/person1.webp 828w, ./profile/person1.webp 1080w, ./profile/person1.webp 1200w, ./profile/person1.webp 1920w, ./profile/person1.webp 2048w, ./profile/person1.webp 3840w' src='./profile/person1.webp' />
+                                                <img alt="Avatar 1" loading="lazy" decoding="async" data-nimg="fill" class="rounded-full object-cover" sizes="100vw" srcSet='./profile/member2.webp 640w, ./profile/member2.webp 750w, ./profile/member2.webp 828w, ./profile/member2.webp 1080w, ./profile/member2.webp 1200w, ./profile/member2.webp 1920w, ./profile/member2.webp 2048w, ./profile/member2.webp 3840w' src='./profile/member2.webp' />
                                             </div>
                                         </div>
                                     </div>
