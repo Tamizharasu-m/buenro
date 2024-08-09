@@ -34,7 +34,7 @@ export default function Carlos() {
   return (
     <div className=' h-screen items-center justify-center flex flex-col members-container overflow-hidden gap-[.5rem] text-center bg-white-100 text-black pt-[2.5rem] pb-[3.5rem] md:pb-[0] '>
         <div>
-            <h3 className='text-regular75 md:w-[20ch] mx-auto mobile:text-[2.1rem] w-full px-[1.2rem] md:px-0 leading-[1.5] md:leading-[0]'>See who else is joining</h3>
+            <h3 className='text-[1.9rem] md:w-[20ch] mx-auto  w-full px-[1.2rem] md:px-0 leading-[1.5] md:leading-[0]'>See who else is joining</h3>
         </div>
         <div className=''>
             <div className='three-slidess pb-[4rem] flex justify-center members-cards pt-[3rem] md:pt-[2rem] text-center'>
