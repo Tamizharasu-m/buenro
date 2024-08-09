@@ -44,7 +44,7 @@ export default function Join() {
 
     return (
         <>
-            <div className='overflow-hidden'>
+            <div className='overflow-hidden h-[100vh] lg:h-auto'>
                 <div className='flex flex-col gap-[.6rem] pt-[3.8rem] pb-[1.6rem] h-[calc(6rem+19vh)] justify-evenly mobile:pt-[8rem] mobile:h-auto'>
                     <div>
                         <div>
@@ -118,20 +118,13 @@ export default function Join() {
                     <Swiper
                         
                         breakpoints={{
-                            0: {
-        
-                                slidesPerView: 1.2,
-        
-                                
-                                centeredSlides: true,
-                                spaceBetween : 2
-                            },
+                            
         
                             0: {
         
                                
         
-                                slidesPerView: 1.2,
+                                slidesPerView: 5,
         
                                 centeredSlides: true,
                                 spaceBetween : 2
@@ -188,7 +181,7 @@ export default function Join() {
                         }}
                         loop
                         modules={[Autoplay]}
-                        className="mySwiper"
+                        className="h-[450px] mySwiper"
 
                     >
                         <SwiperSlide className='w-[209px] h-[450px]'>
