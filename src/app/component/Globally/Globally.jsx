@@ -51,7 +51,7 @@ export default function Globally() {
     return (
         <div ref={horizontalScrollContainer} className='  relative flex flex-col properties bg-white-100 h-[100vh] w-full items-center justify-start md:pt-[1rem] md:pb-[3rem] mobile:h-[200vh] '>
             <div className='px-mobile w-[100vw] overflow-hidden lg:px-0 lg:w-full h-[18rem] sticky top-[calc(100vh-18rem)/2] mobile:h-[auto] mobile:top-[calc(100vh-21rem)/2]'>
-                <p class="text-[1.28rem] pl-[8.33vw] mt-[40px] tablet:pl-0">Gather Globally in +50,000 Properties</p>
+                <p class="text-[1.28rem] pl-[8.33vw] mt-[50px] tablet:pl-0">Gather Globally in +50,000 Properties</p>
                 <div className='hidden mt-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide'>
                     <div className='flex-shrink-0 mr-2 scroll-section snap-center'>
                         <div className='w-[14.2rem] shrink-0 bg-[length:100%] bg-center bg-no-repeat relative rounded-[30px] mobile:w-[17.2rem] bg-image1'>
