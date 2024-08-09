@@ -372,7 +372,7 @@ export default function Globally() {
                     <div className='h-[392px] scroll-section w-[14.2rem] relative shrink-0 border-[#E6E6E6] border-[.06rem] bg-white-100 shadow-xxsm rounded-[1.2rem] px-[1.5rem] py-[1.65rem] mobile:w-[17.2rem]'>
                         <p class="text-3xl text-black">Early<span class="block">Access</span></p>
                         <div className='absolute bg-black rounded-full w-[3rem] h-[3rem] flex right-[.7rem] bottom-[.7rem] items-center justify-center'>
-                            <img class="w-[1.05rem] h-auto text-white" width="42" height="43" src='./Buenro-11.svg' />
+                            <img class="w-[1.05rem] h-auto text-white" width="42" height="43" src='./Buenro-9.svg' />
                         </div>
                     </div>
                 </div>
